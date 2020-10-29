@@ -23,13 +23,14 @@ export default async (req, res) => {
                 .doc(response.user.uid)
                 .set(
                     {
-                        nombre: name,
+                        name: name,
                         //  apellido: lastname,
                         //   username,
+                        password,
                         //   dni,
-                        favoritos: [],
-                        email: email,
-                        posts: []
+                       // favoritos: [],
+                        email: email
+                        //posts: []
                     }
                 )
                 .then(() => {
