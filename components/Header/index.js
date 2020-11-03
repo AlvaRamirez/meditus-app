@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-//import * as Scroll from 'react-scroll'
+import * as Scroll from 'react-scroll'
 import { default as NextLink } from 'next/link'
 import { useAuth } from 'lib/useUser';
+
 
 
 const Header = () => {
@@ -42,7 +43,7 @@ const Header = () => {
                 <li className="Li-header">
                     <Link
                         activeClass="active"
-                        to="videos"
+                        to="contvi"
                         spy={true}
                         smooth={true}
                         offset={-250}
@@ -54,7 +55,7 @@ const Header = () => {
                 <li className="Li-header">
                     <Link
                         activeClass="active"
-                        to="nosotros"
+                        to="divcont"
                         spy={true}
                         smooth={true}
                         offset={-80}
@@ -66,7 +67,7 @@ const Header = () => {
                 <li className="Li-header">
                     <Link
                         activeClass="active"
-                        to="contacto"
+                        to="noap"
                         spy={true}
                         smooth={true}
                         offset={225}
@@ -78,7 +79,6 @@ const Header = () => {
             </ul>
 
             <div className="ml">
-
                 <NextLink href="/login">
                     <a>Login</a>
                 </NextLink>

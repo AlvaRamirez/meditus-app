@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+  
+  <link href="css/hover.css" rel="stylesheet" media="all">
+  <link rel="stylesheet" href="../Hover/css/hover.css">
+    <link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>Méditus</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <!-- Mercado Pago integration-->
+    <script type="text/javascript">
+      (function () {
+        function $MPC_load() {
+          window.$MPC_loaded !== true &&
+            (function () {
+              var s = document.createElement("script");
+              s.type = "text/javascript";
+              s.async = true;
+              s.src =
+                document.location.protocol +
+                "//secure.mlstatic.com/mptools/render.js";
+              var x = document.getElementsByTagName("script")[0];
+              x.parentNode.insertBefore(s, x);
+              window.$MPC_loaded = true;
+            })();
+        }
+        window.$MPC_loaded !== true
+          ? window.attachEvent
+            ? window.attachEvent("onload", $MPC_load)
+            : window.addEventListener("load", $MPC_load, false)
+          : null;
+      })();
+    </script>
+<!-- 
+<script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+data-preference-id="449368404-a0ad8847-74f7-4c37-b974-ef685f8671a9">
+</script> -->
+
+  </body>
+</html>

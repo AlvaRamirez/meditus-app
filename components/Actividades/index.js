@@ -7,7 +7,7 @@ export default function Actividades() {
     return (
         <div id="actividades">
             <div className="contact">
-                <h1 className="seccion">Actividades</h1>
+                {/* <h1 className="seccion">Actividades</h1> */}
 
                 <div id="contnoo">
                     <div id="izq">

@@ -2,7 +2,7 @@ import { Actividades, Videos, Nosotros, Contacto, Inicio, Footer } from 'compone
 
 const Home = () => {
     return (
-        <div className="fondo">
+        
             <>
                 <Inicio />
                 <Actividades />
@@ -11,7 +11,7 @@ const Home = () => {
                 <Contacto />
                 <Footer />
             </>
-        </div>
+       
     )
 }
 

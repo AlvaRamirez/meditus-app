@@ -4,8 +4,6 @@ const Nosotros = () => {
 
     return (
         <div id="nosotros">
-        <div className="cont">
-        <h1  className="seccion">Nosotros</h1>
         <div className="divcont">
             <div  className="iz">
 
@@ -23,7 +21,6 @@ const Nosotros = () => {
         <p className="texto"> <strong>Calma, presencia, <span>Méditus.</span></strong></p>
         </div>
 
-     </div>
      </div>
      </div>
 

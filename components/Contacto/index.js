@@ -5,11 +5,9 @@ const Contacto = () => {
     return (
     
         <div id="contacto"> 
-        <div className="cont">
-        <h1  className="seccion">Contacto</h1>
-        <div >
-  
+        
 
+        <div >
     <form>
        <div id="noap">
   <label>
@@ -29,7 +27,7 @@ const Contacto = () => {
 
    </div>
      </div>
-     </div>
+    
    
     )
 }

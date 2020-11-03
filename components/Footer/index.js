@@ -5,8 +5,6 @@ const Footer = () => {
         <footer>
             <div className="contfo">
             <ul className="Ul-footer">
-               <li className="Li-footer"> <a>Términos y condiciones</a></li>
-                <li className="Li-footer"><a>Políticas de privacidad</a> </li>
                <li id="copy" className="Li-footer">Copyright © 2020 Méditus S.R.L</li>
             </ul>
             <ul className="Ul-footer">
