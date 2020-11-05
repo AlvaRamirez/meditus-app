@@ -3,8 +3,36 @@ import Footer from '../components/Footer'
 import Aporte from '../components/Aporte'
 
 export default function Aprende() {
+  
+    // const mercadopago = require ('mercadopago');
 
+    // // Agrega credenciales
+    // mercadopago.configure({
+    //   access_token: 'PROD_ACCESS_TOKEN'
+    // });
+    
+    // // Crea un objeto de preferencia
+    // let preference = {
+    //   items: [
+    //     {
+    //       title: 'Mi producto',
+    //       unit_price: 100,
+    //       quantity: 1,
+    //     }
+    //   ]
+    // };
+    
+    // mercadopago.preferences.create(preference)
+    // .then(function(response){
+    // // Este valor reemplazará el string "<%= global.id %>" en tu HTML
+    //   global.id = response.body.id;
+    // }).catch(function(error){
+    //   console.log(error);
+    // });
     return (
+
+  
+
         <div className="fondo">
 
             <div className="contpag">
@@ -73,6 +101,11 @@ export default function Aprende() {
                         las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker,
                      el cual incluye versiones de Lorem Ipsum.</p>
                     </div>
+                    
+                    {/* <script
+        src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+        data-preference-id='<%= global.id %>'>
+      </script> */}
                     <Aporte />
                 </div>
 

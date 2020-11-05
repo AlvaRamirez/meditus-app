@@ -67,7 +67,7 @@ const Header = () => {
                 <li className="Li-header">
                     <Link
                         activeClass="active"
-                        to="noap"
+                        to="contacto"
                         spy={true}
                         smooth={true}
                         offset={225}

@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Aporte from '../components/Aporte'
+
 const Experimenta = () => {
 
 // const [name] = useState([]);
@@ -21,6 +22,7 @@ const Experimenta = () => {
 //         useEffect(() => {
 //         getData();
 //         }, []);
+// SDK de Mercado Pago
 
 
     return (
@@ -91,7 +93,8 @@ const Experimenta = () => {
             las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker,
              el cual incluye versiones de Lorem Ipsum.</p>
              </div>
-             
+   
+
            <Aporte/>
         </div>
       
