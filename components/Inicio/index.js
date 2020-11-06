@@ -3,7 +3,7 @@ import React from 'react'
 const Inicio = () => {
 
     return (
-        <section>
+        <section id="sectionini">
             <div className="inicio">
         <h1 className="titulo">Vive el aquí y ahora</h1>
             <p className="subti"> Conoce la comunidad Méditus </p>

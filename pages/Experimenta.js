@@ -27,6 +27,7 @@ const Experimenta = () => {
 
     return (
         <div className="fondo">
+           <Header2 />
 
 <div className="contpag">
         <div className="context"> 

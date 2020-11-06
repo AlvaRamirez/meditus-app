@@ -12,9 +12,10 @@ const GlobalStyle = createGlobalStyle`
     height: 71vh;
     color: white !important;
     margin: 0 auto;
-    min-height: calc(81vh - 100px);
+    min-height: calc(112vh - 100px);
+    display: flex;
     text-align: center;
-    padding-top: 18%;
+    /* padding-top: 18%; */
     background-image: url(./assets/actividades.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -22,14 +23,15 @@ const GlobalStyle = createGlobalStyle`
 }
 
 
+
 #videos {
     width: 100%;
     /* height: 71vh; */
     color: white !important;
     margin: 0 auto;
-    min-height: calc(87vh - 100px);
+    min-height: calc(113vh  - 100px);
     text-align: center;
-    padding-top: 15%;
+  
     background-image: url(./assets/videos.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -51,12 +53,16 @@ const GlobalStyle = createGlobalStyle`
     display:flex;
 }
 
+.contact{
+  margin: 0 auto;
+    display: flex;
+}
 
 #contacto {
     width: 100%;
     color: white !important;
     margin: 0 auto;
-    min-height: calc(131vh - 100px);
+    min-height: calc(107vh - 100px);
     text-align: center;
     background-image: url(./assets/fondo.jpg);
     background-size: auto;
@@ -104,7 +110,7 @@ a{
     -webkit-align-content: space-around;
     -ms-flex-line-pack: space-around;
     /* align-content: space-around; */
-    font-size: 12.5px;
+    font-size: 14px;
     margin: 0 auto;
     font-weight: 600;
     padding: 0;
@@ -131,7 +137,7 @@ a{
 }
 
 .Li-header {
-
+cursor: pointer;
   text-align: center;
   margin: 0 auto;
   justify-content: center;
@@ -145,6 +151,22 @@ a{
     cursor: auto;
 }
 
+#logs{
+  padding: 10px 15px 10px 15px;
+    background: #3d9898;
+    border-radius: 3em;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-size: 15px;
+    -webkit-transition: 0.7s all;
+    transition: 0.7s all;
+    font-family: 'Nunito Sans',sans-serif;
+}
+
+#logs:hover{
+  transform:scale(1.1);
+  transition:0.7s all;
+}
 
 .Li-header a{
   transition: 0.7s all;
@@ -158,9 +180,7 @@ a{
 
 .Li-header > .active {
 color: rgb(80, 248, 234);
-transition: 0.7s all;
-  transform:scale(1.1) !important;
-
+transition: 1s all;
 }
 
 .Li-header a:focus {
@@ -333,7 +353,7 @@ transition: 0.7s all;
 }
 
 #logo {
-    width: 22%;
+  
     margin: 0 auto;
 }
 
@@ -481,7 +501,7 @@ video{
     text-align: center;
     margin: 0 auto;
     text-align: center;
-    height: 8.5vh !important;
+    height: 9.5vh !important;
     font-family: 'Nunito Sans',sans-serif;
     z-index: 99;
     width: 100%;
@@ -527,7 +547,7 @@ video{
 }
 
 footer {
-    height: 55px;
+  height: 40px;
     background-color: #040613;
     color: #fff;
     -webkit-flex-direction: column;
@@ -675,12 +695,12 @@ header span.animated {
     text-align: left;
 }
 
-#iz {
-  width: 50%;
+#izq{
+  padding-right:5%;
 }
 
-.der {
-  width: 40%;
+#der{
+  padding-left: 5%;
 }
 
 #layout-modal{
@@ -700,6 +720,9 @@ button{
   width: 40%;
   border-radius: 1.5em;
   margin-left: 7em;
+}
+#contvi{
+  padding-top: 15%;
 }
 
 .conder {
@@ -1163,7 +1186,6 @@ transition:1s !important;
   .iz{
     width: 50%;
     margin: 0 auto;
-    padding-top: 14em;
     text-align: left;
   }
 

@@ -6,38 +6,34 @@ import { useAuth } from 'lib/useUser';
 
 
 
-const Header = () => {
+const Header2 = () => {
     const auth = useAuth();
     return (
         <header className="App-header">
             <div className="ml">
-                {/* <NextLink
+                 <NextLink
                     id="meditu" href="/">
                     <a ><img className="hvr-grow" id="logo" src="./assets/logo.png"></img> </a>
-                </NextLink> */}
-        <Link 
-         activeClass="active"
-        spy={true}
+                </NextLink> 
+            </div>
+{/* 
+             <Link spy={true}
        smooth={true}
-       to="sectionini"
        offset={0}
        duration={1100}
        
        >
-        <a ><img className="hvr-grow" id="logo" src="./assets/logo.png"></img> </a>
-       </Link>
-            </div>
+         <a ><img className="hvr-grow" id="logo" src="./assets/logo.png"></img> </a>
+       </Link>  */}
 
-        
-
-            <ul className="Ul-header">
+            {/* <ul className="Ul-header">
                 <li className="Li-header">
                     <Link
                         activeClass="active"
                         to="actividades"
                         spy={true}
                         smooth={true}
-                        offset={5}
+                        offset={0}
                         duration={1100}
                     >
                         Actividades</Link>
@@ -47,10 +43,10 @@ const Header = () => {
                 <li className="Li-header">
                     <Link
                         activeClass="active"
-                        to="videos"
+                        to="contvi"
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-250}
                         duration={1100}
                     >
                         Videos</Link>
@@ -59,10 +55,10 @@ const Header = () => {
                 <li className="Li-header">
                     <Link
                         activeClass="active"
-                        to="nosotros"
+                        to="divcont"
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-80}
                         duration={1100}
                     >
                         Nosotros</Link>
@@ -74,25 +70,25 @@ const Header = () => {
                         to="contacto"
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={225}
                         duration={1100}
                     >
                         Contacto</Link>
                 </li>
 
             </ul>
-
+*/} 
             <div className="ml">
-                {/* <NextLink href="/login">
+                 {/* <NextLink href="/login">
                     <a className="logs">Login</a>
                 </NextLink>
                 <NextLink href="/signup">
                     <a className="logs" >Signup</a>
-                </NextLink> */}
+                </NextLink>  */}
                 <a className="hvr-grow" id="logs" onClick={() => auth.logout()}>Salir</a>
             </div>
         </header>
     )
 }
 
-export default Header
+export default Header2

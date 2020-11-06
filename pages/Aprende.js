@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Aporte from '../components/Aporte'
+import Header2 from '../components/Header2'
 
 export default function Aprende() {
   
@@ -31,9 +32,10 @@ export default function Aprende() {
     // });
     return (
 
+       
   
-
         <div className="fondo">
+             <Header2 />
 
             <div className="contpag">
                 <div className="context">
