@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Aporte from '../components/Aporte'
+import Header2 from '../components/Header2'
 
 const Experimenta = () => {
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'react-scroll'
-import * as Scroll from 'react-scroll'
+//import { Link } from 'react-scroll'
+//import * as Scroll from 'react-scroll'
 import { default as NextLink } from 'next/link'
 import { useAuth } from 'lib/useUser';
 
