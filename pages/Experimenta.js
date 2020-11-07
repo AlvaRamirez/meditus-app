@@ -3,6 +3,9 @@ import Footer from '../components/Footer'
 import Aporte from '../components/Aporte'
 import Header2 from '../components/Header2'
 import { auth, db, now } from '../lib/firebase'
+import Card from '../components/Card'
+
+
 
 const Experimenta = () => {
 
@@ -40,18 +43,33 @@ const Experimenta = () => {
  }
 
   const cardinfo=getcard();
-
-  const titulo='titulo1';
-
     return (
-      
+      <div>
         <div className="fondo">
 
            <Header2 />
+      <div className="cardcontent">
+          <Card />
 
-        
+          <Card />
+
+          <Card />
+
+          <Card />
+
+          <Card />
+
+          <Card />
+
+          <Card />
+
+          <Card />
+
+          <Card />
+
+          </div>
           {/* <p>{cardinfo.type}</p> */}
-          <p id="titulonegro">{titulo}</p>
+          {/* <p id="titulonegro">{titulo}</p> */}
           {/* <p>{cardinfo.subtitulo}</p>
           <p>{cardinfo.contenido}</p> */}
 
@@ -127,11 +145,12 @@ const Experimenta = () => {
         </div>
       
         </div> */}
-          <Footer />
+         
         </div>
-        
+         <Footer />
+         </div>
       
-    )
+)
     }
 
     export default Experimenta

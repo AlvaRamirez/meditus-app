@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const GlobalStyle = createGlobalStyle`
 
@@ -509,6 +510,7 @@ video{
 }
 
 
+
 .btn {
   background-color: #4d8f88;
   border: none;
@@ -518,7 +520,7 @@ video{
   border-radius: 1em;
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 600;
-  margin-right: 4.5em;
+ // margin-right: 4.5em;
   cursor: pointer;
 }
 
@@ -588,7 +590,7 @@ header{height: 30px;}
 section{
   border: none;
     outline: none;
-    display: grid;
+    display: flex;
 }
 
 .inicio {
@@ -622,16 +624,17 @@ section{
     font-style: oblique;
 }
 
-.subtit{
+.subti{
   font-weight: 400;
-    font-size: 17px;
-    padding-top: 10px;
+    font-size: 18px;
     color: #ffffff;
-}
+    font-style: oblique;
+    padding-top: 20px;
+    }
 
 .titulo {
   font-family: "Volkhov",serif;
-    font-size: 70px;
+    font-size: 75px;
     color: #01dcff;
     margin: 0 auto;
 }
@@ -1074,9 +1077,11 @@ h2{
 
 .fondo {
   background-image: url('./assets/fondocompleto.png');
-  background-size: auto;
-  background-repeat: round;
-  height: auto;
+  background-size: cover;
+    background-repeat: inherit;
+    height: auto;
+    min-width: 100%;
+    min-height: 95.7vh;
 }
 
 input {
@@ -1101,6 +1106,29 @@ input {
 }
 .ytp-title-text{
   display: none !important;
+}
+
+.card{
+  width: 18rem !important;
+    margin: 0 auto !important;
+    margin-bottom: 3em !important;
+}
+
+.cardcontent{
+  width: 75%;
+    /* display: -webkit-box; */
+    /* display: -webkit-flex; */
+    display: -ms-flexbox;
+    display: grid;
+    margin: 0 auto;
+    padding-top: 9.5em;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns: 100px repeat(2, 50px) 200px;
+    grid-template-rows: repeat(2, 50px 100px); */
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3];
+    grid-template-rows: [y0] 1fr [y1] 1fr [y2] 1fr [y3];
 }
 
 

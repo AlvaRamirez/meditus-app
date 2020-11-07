@@ -46,6 +46,13 @@
 
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import "~bootstrap/scss/bootstrap";
+
+// /* The following line can be included in your src/index.js or App.js file */
+
+// import './App.scss';
+
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -77,7 +84,24 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head></Head>
+        <Head>  
+          <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
+<script
+  src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
+  crossorigin></script>
+<script
+  src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
+  crossorigin></script>
+<script>var Alert = ReactBootstrap.Alert;</script>
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+  crossorigin="anonymous"
+/> 
+
+<title>Méditus</title>
+</Head>
         <body>
           <Main />
           <NextScript />

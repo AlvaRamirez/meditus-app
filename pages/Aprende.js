@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Aporte from '../components/Aporte'
 import Header2 from '../components/Header2'
+import Card from '../components/Card'
 
 export default function Aprende() {
   
@@ -32,12 +33,40 @@ export default function Aprende() {
     // });
     return (
 
-       
+       <div>
   
         <div className="fondo">
             
+            <Header2 />
 
-            <div className="contpag">
+
+            <div className="cardcontent">
+          <Card />
+
+          <Card />
+
+          <Card />
+
+          <Card />
+
+          <Card />
+
+          <Card />
+
+          <Card />
+
+          <Card />
+
+          <Card />
+
+          <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+data-preference-id="449368404-a0ad8847-74f7-4c37-b974-ef685f8671a9">
+</script>
+
+
+
+          </div>
+            {/* <div className="contpag">
                 <div className="context">
                     <h3 className="sub2">Aprendé</h3>
                     <div className="contitu">
@@ -103,14 +132,15 @@ export default function Aprende() {
                         las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker,
                      el cual incluye versiones de Lorem Ipsum.</p>
                     </div>
-                    
+                     */}
                     {/* <script
         src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
         data-preference-id='<%= global.id %>'>
       </script> */}
-                    <Aporte />
+                    {/* <Aporte />
                 </div>
 
+            </div> */}
             </div>
             <Footer />
         </div>

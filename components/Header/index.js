@@ -83,12 +83,12 @@ const Header = () => {
             </ul>
 
             <div className="ml">
-                 <NextLink href="/login">
+                 {/* <NextLink href="/login">
                     <a className="logs">Login</a>
                 </NextLink>
                 <NextLink href="/signup">
                     <a className="logs" >Signup</a>
-                </NextLink> 
+                </NextLink>  */}
                 <a className="hvr-grow" id="logs" onClick={() => auth.logout()}>Salir</a>
             </div>
         </header>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { default as NextLink } from 'next/link'
 import { useUser } from 'lib/useUser'
-
+//   {auth.user ? `/Experimenta` : `/login`} 
 export default function Actividades() {
     const auth = useUser();
     return (
@@ -16,7 +16,7 @@ export default function Actividades() {
                         </NextLink>
                     </div>
                     <div id="der">
-                        <NextLink href={auth.user ? `/Experimenta` : `/login`} >
+                        <NextLink href="/Experimenta" > 
                             <a ><img className="hvr-float" id="imgiz" src="./assets/Grupo 103.png"></img></a>
                         </NextLink>
                     </div>

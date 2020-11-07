@@ -1,12 +1,14 @@
 import React from 'react'
+// import MailchimpSubscribe from "react-mailchimp-subscribe"
 
 const Contacto = () => {
+
 
     return (
     
         <div id="contacto"> 
 
-
+{/* <MailchimpSubscribe/> */}
 
 
             <ul className="Ul-footer">
@@ -15,6 +17,11 @@ const Contacto = () => {
            <li className="Li-footer">  <a href={'https://www.youtube.com/channel/UCiLAiAX95QVyOxol90TwM-A/?guided_help_flow=5'}target="_blank"><img src="./assets/youtube.png"></img></a></li>
             </ul>
         
+     
+            {/* <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/622b5d9dd477296ce65a9eb0e/14ef6a0608f23a0cf93c42c7a.js");</script> */}
+ 
+
+
 {/* 
         <div >
     <form>
