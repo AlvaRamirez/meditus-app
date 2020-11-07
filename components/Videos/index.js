@@ -16,8 +16,6 @@ const Videos = () => {
     return (
       <div id="videos">
         <div id="contvi">
-           
-
      <Slider {...settings}>
           <div className="contSlider">
           <iframe  src="https://www.youtube.com/embed/x1CrPwhmqX4"  default></iframe>

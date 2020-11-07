@@ -24,6 +24,7 @@ const GlobalStyle = createGlobalStyle`
 
 
 
+
 #videos {
     width: 100%;
     /* height: 71vh; */
@@ -591,7 +592,7 @@ section{
 }
 
 .inicio {
-  min-height: calc(115vh - 100px); 
+  min-height: calc(120vh - 100px);
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -902,7 +903,6 @@ background-repeat: no-repeat;
   align-items: center;
   align-content: center;
   justify-content: space-evenly;
-  padding-top: 25px;
 }
 
   #salas {

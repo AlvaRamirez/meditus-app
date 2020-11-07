@@ -35,7 +35,7 @@ export default function Aprende() {
        
   
         <div className="fondo">
-             <Header2 />
+            
 
             <div className="contpag">
                 <div className="context">

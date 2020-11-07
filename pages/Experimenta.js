@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Aporte from '../components/Aporte'
 import Header2 from '../components/Header2'
+import { auth, db, now } from '../lib/firebase'
 
 const Experimenta = () => {
 
@@ -24,13 +25,38 @@ const Experimenta = () => {
 //         getData();
 //         }, []);
 // SDK de Mercado Pago
+  
+  function getcard(){
 
+    const card= db.collection('cards').doc('8zr4yqzKMwyK5H8WOb7f');
+    card.get().then(result => {
+  console.log(result.data());
+    return result.data
+  
+    })
+    .catch(error => {console.log('error al obtener la card', error)}) ;
+
+
+ }
+
+  const cardinfo=getcard();
+
+  const titulo='titulo1';
 
     return (
+      
         <div className="fondo">
+
            <Header2 />
 
-<div className="contpag">
+        
+          {/* <p>{cardinfo.type}</p> */}
+          <p id="titulonegro">{titulo}</p>
+          {/* <p>{cardinfo.subtitulo}</p>
+          <p>{cardinfo.contenido}</p> */}
+
+
+{/* <div className="contpag">
         <div className="context"> 
         <h3  className="sub2">Experimentá</h3>
         <div className="contitu">
@@ -100,7 +126,7 @@ const Experimenta = () => {
            <Aporte/>
         </div>
       
-        </div>
+        </div> */}
           <Footer />
         </div>
         
