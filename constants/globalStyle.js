@@ -218,7 +218,7 @@ transition: 1s all;
   display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    
 }
 #botondona{
   margin: 20px !important;
