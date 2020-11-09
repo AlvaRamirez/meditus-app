@@ -1223,20 +1223,111 @@ transition:1s !important;
   background-size: auto !important;
   -webkit-background-size: auto !important;
 }
+@media (min-width: 481px) and (max-width: 1200px) {
 
-    
+.cardcontent {
+    width: 75%;
+    display: -ms-flexbox;
+    /* display: grid; */
+    margin: 0 auto;
+    padding-top: 5em;
+    display: grid;
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3];
+    display: block;
+}
+.card {
+    width: 33rem !important;
+    margin: 0 auto !important;
+    margin-bottom: 3em !important;
+    border-radius: 1em !important;
+}
+}
 @media (min-width: 481px) and (max-width: 900px) {
   
   .App-header{
-    background-color:red;
+    padding-left: 3em;
   }
 
   #contnoo{
     width: 100% !important;
     text-align: center !important;
-    display:block
+    display:grid;
   }
-  
+  .inicio{
+    display: block;
+    min-height: calc(50vh - 100px);
+    margin-top: 9em;
+  }
+  .ca3-scroll-down-link{
+    display:none;
+  }
+  #logs{
+    display:none;
+  }
+  .Li-footer img{
+    width:50px;
+  }
+  #izq{
+    padding:0;
+  }
+
+  iframe {
+    margin: 0 auto;
+    border-radius: 1.2em;
+    text-align: center;
+    border: none;
+    padding: 0;
+    outline: none;
+    width: 85%;
+    padding: 0;
+    margin: 0 auto;
+    height: 50vh;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -webkit-transition: 1s !important;
+    -webkit-transition: 1s !important;
+    -webkit-transition: 1s !important;
+    -webkit-transition: 1s !important;
+    transition: 1s !important;
+}
+
+.cardcontent {
+    width: 100%;
+    display: -ms-flexbox;
+    margin: 0 auto;
+    padding-top: 5em;
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3];
+    display: block;
+}
+
+.card {
+    width: 33rem !important;
+    margin: 0 auto !important;
+    margin-bottom: 3em !important;
+    border-radius: 1em !important;
+}
+
+.slick-list {
+    text-align: center;
+    border: none;
+    outline: none;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    padding: 0;
+    width: 80%;
+}
+
+  #contvi {
+    padding-top: 35%;
+}
+  #der{
+    padding:0;
+  }
+  .hvr-float{
+    width: 85%;
+  }
   .iz{
     width: 50%;
     margin: 0 auto;
@@ -1248,6 +1339,10 @@ transition:1s !important;
     margin-top: 0 auto;
     margin-top: 22em;
     margin-left: 3em;
+}
+
+.Ul-header{
+  display:none;
 }
 
 .sub {
