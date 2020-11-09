@@ -85,6 +85,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>  
+       
           <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
 <script
   src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
@@ -99,6 +100,10 @@ class MyDocument extends Document {
   integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
   crossorigin="anonymous"
 /> 
+
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></link>
+
+<link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"></link>
 
 <title>Méditus</title>
 </Head>

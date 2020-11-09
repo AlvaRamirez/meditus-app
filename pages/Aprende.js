@@ -38,9 +38,11 @@ export default function Aprende() {
         <div className="fondo">
             
             <Header2 />
-
-
+            <div className="contacti">
+            <h1 className="titact">Aprende</h1>
+           
             <div className="cardcontent">
+            
           <Card />
 
           <Card />
@@ -51,20 +53,15 @@ export default function Aprende() {
 
           <Card />
 
-          <Card />
+    
 
-          <Card />
-
-          <Card />
-
-          <Card />
-
-          <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+          {/* <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
 data-preference-id="449368404-a0ad8847-74f7-4c37-b974-ef685f8671a9">
-</script>
+</script> */}
 
 
 
+          </div>
           </div>
             {/* <div className="contpag">
                 <div className="context">

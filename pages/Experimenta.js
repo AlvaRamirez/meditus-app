@@ -48,7 +48,10 @@ const Experimenta = () => {
         <div className="fondo">
 
            <Header2 />
+           <div className="contacti">
+           <h1 className="titact">Experimentá</h1>
       <div className="cardcontent">
+      
           <Card />
 
           <Card />
@@ -59,14 +62,9 @@ const Experimenta = () => {
 
           <Card />
 
-          <Card />
+        
 
-          <Card />
-
-          <Card />
-
-          <Card />
-
+          </div>
           </div>
           {/* <p>{cardinfo.type}</p> */}
           {/* <p id="titulonegro">{titulo}</p> */}

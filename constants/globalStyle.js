@@ -1,7 +1,13 @@
 import { createGlobalStyle } from "styled-components";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 const GlobalStyle = createGlobalStyle`
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 *{
   padding: 0;
@@ -144,6 +150,7 @@ cursor: pointer;
   margin: 0 auto;
   justify-content: center;
   transition: 0.7s all;
+  margin: 30px;
 }
 
 .ajust{
@@ -636,6 +643,7 @@ section{
   font-family: "Volkhov",serif;
     font-size: 75px;
     color: #01dcff;
+    font-weight:bold;
     margin: 0 auto;
 }
 
@@ -1112,6 +1120,24 @@ input {
   width: 18rem !important;
     margin: 0 auto !important;
     margin-bottom: 3em !important;
+    border-radius: 1em !important;
+}
+
+.titact{
+  padding-top: 4em;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "Volkhov",serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: #ccbcd7;
+
+}
+
+.contacti{
+  width: 75%;
+    margin: 0 auto;
+    display:block;
 }
 
 .cardcontent{
@@ -1121,14 +1147,14 @@ input {
     display: -ms-flexbox;
     display: grid;
     margin: 0 auto;
-    padding-top: 9.5em;
+    padding-top: 5em;
     display: grid;
     /* grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 1fr;
     grid-template-columns: 100px repeat(2, 50px) 200px;
     grid-template-rows: repeat(2, 50px 100px); */
     grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3];
-    grid-template-rows: [y0] 1fr [y1] 1fr [y2] 1fr [y3];
+   //grid-template-rows: [y0] 1fr [y1] 1fr [y2] 1fr [y3];
 }
 
 
@@ -1239,6 +1265,7 @@ transition:1s !important;
     font-family: "Volkhov",serif;
     font-size: 45px;
     margin: 0 auto;
+    font-weight:bold;
 }
 
 }
