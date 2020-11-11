@@ -177,6 +177,24 @@ cursor: pointer;
   transition:0.7s all;
 }
 
+
+#logs2{
+  padding: 10px 15px 10px 15px;
+    background: #3d9898;
+    border-radius: 3em;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-size: 15px;
+    -webkit-transition: 0.7s all;
+    transition: 0.7s all;
+    font-family: 'Nunito Sans',sans-serif;
+}
+
+#logs2:hover{
+  transform:scale(1.1);
+  transition:0.7s all;
+}
+
 .Li-header a{
   transition: 0.7s all;
 }
@@ -519,6 +537,38 @@ video{
     width: 100%;
 }
 
+
+.App-header2 {
+  background-color: #080F34;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: fixed;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    color: white;
+    /* padding: 13px; */
+    border-radius: 0em 0em 40em 40em;
+    margin: 0 auto;
+    margin: 20px;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+    height: 9.5vh !important;
+    font-family: 'Nunito Sans',sans-serif;
+    z-index: 99;
+    width: 100%;
+}
 
 
 .btn {
@@ -913,6 +963,10 @@ background-repeat: no-repeat;
   width: 33%;
 }
 
+.ml2{
+  width: 33%;
+}
+
 #contnoo {
   display: flex;
   width: 100%;
@@ -1263,7 +1317,173 @@ transition:1s !important;
 
 }
 @media only screen and (max-width: 1300px) {
+
+
+  .card {
+    width: 80% !important;
+    margin: 0 auto !important;
+    margin-bottom: 3em !important;
+    border-radius: 1em !important;
+    padding: 30px;
+    text-align: center;
+}
+
+.card-body {
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    padding: 0px;
+    /* width: 60%; */
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    text-align: initial;
+    font-weight: bold;
+    color: #565656;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.btn {
+    background-color: #4d8f88;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    font-size: 13px;
+    border-radius: 1em;
+    font-family: 'Nunito Sans',sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cardcontent {
+    width: 100%;
+    display: -ms-flexbox;
+    margin: 0 auto;
+    padding-top: 4em;
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3];
+    display: inline-table !important;
+}
+
+
+  .slick-track {
+opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+    width: 800px;
+}
+
+
+.subti {
+    font-weight: 400;
+    font-size: 13px;
+    color: #ffffff;
+    font-style: oblique;
+     padding-top: 0px; 
+     text-align: center;
+}
+  iframe {
+    margin: 0 auto;
+    border-radius: 1.2em;
+    text-align: center;
+    border: none;
+    padding: 0;
+    outline: none;
+    width: 85%;
+    padding: 0;
+    margin: 0 auto;
+    /* margin-right: 150px; */
+    height: 50vh;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -webkit-transition: 1s !important;
+    -webkit-transition: 1s !important;
+    -webkit-transition: 1s !important;
+    -webkit-transition: 1s !important;
+    -webkit-transition: 1s !important;
+    transition: 1s !important;
+}
+
+  .Li-footer img {
+    width: 45px;
+}
+
+#logo {
+    margin: 0 auto;
+    width: 100%;
+}
+
+  #contvi {
+    padding-top: 35%;
+}
+
+  .texto {
+    font-size: 15px;
+    margin-top: 0;
+}
+
+
+
+  .contfo {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    /* padding: 20px; */
+    font-family: 'Nunito Sans';
+    /* margin: 20px; */
+    border: none;
+    /* font-size: 12px !important; */
+}
+
+  .Ul-footer {
+
+    display: block;
   
+   
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+ 
+    -webkit-text-decoration: none;
+    -webkit-text-decoration: none;
+    -webkit-text-decoration: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    list-style: none;
+    -webkit-align-content: space-around;
+    -ms-flex-line-pack: space-around;
+    -webkit-align-content: space-around;
+    margin: 0 auto;
+    -ms-flex-line-pack: space-around;
+    -webkit-align-content: space-around;
+    -ms-flex-line-pack: space-around;
+    -webkit-align-content: space-around;
+    -ms-flex-line-pack: space-around;
+    align-content: space-around;
+    font-size: 11px;
+    margin: 0 auto;
+    font-weight: 600;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
   .Ul-header {
     display: inline-grid;
     background-color: #080f34ed;
@@ -1338,14 +1558,21 @@ transition:1s !important;
     transition: 0.7s all;
     font-family: 'Nunito Sans',sans-serif;
 }
+
+
   
-  .Li-footer img{
-    width:50px;
-  }
+.Li-footer img {
+    width: 45px;
+    margin-top: 9em;
+}
+
   #izq{
     padding:0;
   }
-
+  .Li-footer {
+   
+    font-size: 10px;
+  }
   iframe {
     margin: 0 auto;
     border-radius: 1.2em;
@@ -1371,26 +1598,34 @@ label{
   display: contents !important;
 }
 
+
+.ml2 {
+  width: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.App-header2 {
+    padding-left: 5.5em;
+}
+#logs2 {
+    opacity: 0;
+}
+
+.contacti {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
 .contents{
   position:absolute;
   display: block;
 }
 
-.cardcontent {
-    width: 100%;
-    display: -ms-flexbox;
-    margin: 0 auto;
-    padding-top: 5em;
-    grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3];
-    display: block;
-}
 
-.card {
-    width: 33rem !important;
-    margin: 0 auto !important;
-    margin-bottom: 3em !important;
-    border-radius: 1em !important;
-}
+
+
 
 .slick-list {
     text-align: center;
@@ -1411,7 +1646,7 @@ label{
     width: 85%;
   }
   .iz{
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     text-align: left;
   }
@@ -1449,9 +1684,9 @@ label{
 
 .titulo {
     font-family: "Volkhov",serif;
-    font-size: 65px;
+    font-size: 30px;
     margin: 0 auto;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 
@@ -1464,10 +1699,10 @@ label{
 .menu {
   display: block;
     z-index: 1000;
-    padding-top: 0.9em;
-    width: 35px;
-    margin-right: 5em;
-    cursor:pointer;
+    padding-top: 0.6em;
+    width: 25px;
+    margin-right: 3.5em;
+    cursor: pointer;
 }
 
 #displaynone{
@@ -1484,12 +1719,13 @@ label{
 
 @media only screen and (max-width: 1000px) {
 
-.inicio{
-display: block;
-min-height: calc(50vh - 100px);
-margin-top: 13em;
+  .inicio {
+    display: block;
+    min-height: calc(50vh - 100px);
+    margin-top: 6em;
+}
 
-}}
+}
 
 `;
 

@@ -9,8 +9,8 @@ import { useAuth } from 'lib/useUser';
 const Header2 = () => {
     const auth = useAuth();
     return (
-        <header className="App-header">
-            <div className="ml">
+        <header className="App-header2">
+            <div className="ml2">
                  <NextLink
                     id="meditu" href="/">
                     <a ><img className="hvr-grow" id="logo" src="./assets/logo.png"></img> </a>
@@ -85,7 +85,7 @@ const Header2 = () => {
                 <NextLink href="/signup">
                     <a className="logs" >Signup</a>
                 </NextLink>  */}
-                <a className="hvr-grow" id="logs" onClick={() => auth.logout()}>Salir</a>
+                <a className="hvr-grow" id="logs2" onClick={() => auth.logout()}>Salir</a>
                 <div></div>
             </div>
         </header>
