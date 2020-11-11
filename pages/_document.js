@@ -86,6 +86,8 @@ class MyDocument extends Document {
       <Html>
         <Head>  
        
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
           <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
 <script
   src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"

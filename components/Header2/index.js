@@ -86,6 +86,7 @@ const Header2 = () => {
                     <a className="logs" >Signup</a>
                 </NextLink>  */}
                 <a className="hvr-grow" id="logs" onClick={() => auth.logout()}>Salir</a>
+                <div></div>
             </div>
         </header>
     )

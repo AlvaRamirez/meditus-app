@@ -5,7 +5,6 @@ import { default as NextLink } from 'next/link'
 import { useAuth } from 'lib/useUser';
 
 
-
 const Header = () => {
     const auth = useAuth();
     return (
@@ -28,8 +27,8 @@ const Header = () => {
        </Link>
             </div>
 
-        
-
+           
+<div className="contents" id="contents">
             <ul className="Ul-header">
                 <li className="Li-header">
                     <Link
@@ -91,6 +90,73 @@ const Header = () => {
                 </NextLink>  */}
                 <a className="hvr-grow" id="logs" onClick={() => auth.logout()}>Salir</a>
             </div>
+            
+            </div>
+          
+            <input type="checkbox" id="btn-menu"/>
+            <label for="btn-menu"> <img className="menu" src="./assets/menu.png"></img> </label>
+            
+            <ul className="Ul-header" id="displaynone">
+                <li className="Li-header">
+                    <Link
+                        activeClass="active"
+                        to="actividades"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={1100}
+                    >
+                        Actividades</Link>
+
+                </li>
+
+                <li className="Li-header">
+                    <Link
+                        activeClass="active"
+                        to="videos"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={1100}
+                    >
+                        Videos</Link>
+                </li>
+
+                <li className="Li-header">
+                    <Link
+                        activeClass="active"
+                        to="nosotros"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={1100}
+                    >
+                        Nosotros</Link>
+                </li>
+
+                <li className="Li-header">
+                    <Link
+                        activeClass="active"
+                        to="contacto"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={1100}
+                    >
+                        Contacto</Link>
+                </li>
+                <li>  <a className="hvr-grow" id="logs" onClick={() => auth.logout()}>Salir</a></li>
+              
+            </ul>
+
+         
+           
+           
+
+
+         
+            
+           
         </header>
     )
 }
