@@ -1241,7 +1241,7 @@ transition:1s !important;
   display:none;
 }
 
-@media only screen and (min-width: 481px) and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
 
 .cardcontent {
     width: 75%;
@@ -1262,7 +1262,7 @@ transition:1s !important;
 
 
 }
-@media only screen and (min-width: 481px) and (max-width: 900px) {
+@media only screen and (max-width: 1300px) {
   
   .Ul-header {
     display: inline-grid;
@@ -1313,7 +1313,8 @@ transition:1s !important;
   .inicio{
     display: block;
     min-height: calc(50vh - 100px);
-    margin-top: 9em;
+    margin-top: 16em;
+
   }
   .ca3-scroll-down-link{
     display:none;
@@ -1402,9 +1403,7 @@ label{
     width: 80%;
 }
 
-  #contvi {
-    padding-top: 35%;
-}
+
   #der{
     padding:0;
   }
@@ -1450,7 +1449,7 @@ label{
 
 .titulo {
     font-family: "Volkhov",serif;
-    font-size: 45px;
+    font-size: 65px;
     margin: 0 auto;
     font-weight:bold;
 }
@@ -1479,10 +1478,18 @@ label{
     display:none;
   }
   
+ 
 
 }
 
+@media only screen and (max-width: 1000px) {
 
+.inicio{
+display: block;
+min-height: calc(50vh - 100px);
+margin-top: 13em;
+
+}}
 
 `;
 
