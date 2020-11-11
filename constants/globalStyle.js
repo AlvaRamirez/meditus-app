@@ -1485,12 +1485,12 @@ opacity: 1;
 }
 
   .Ul-header {
-    display: inline-grid;
+    display: block;
     background-color: #080f34ed;
     width: 100%;
     position: absolute;
     left: 540px;
-    height: 100vh;
+    height: 150vh;
     opacity: 0;
     z-index: 0;
     top: 0px;
@@ -1504,12 +1504,12 @@ opacity: 1;
 }
 
   #btn-menu:checked ~ .Ul-header{
-    display: inline-grid;
+    display: block;
     background-color: #080f34ed;
     width: 100%;
     position: absolute;
     left: 0px;
-    height: 100vh;
+    height: 150vh;
     opacity: 1;
     z-index: 0;
     top: 0px;
@@ -1540,17 +1540,19 @@ opacity: 1;
     display:none;
   }
 
-#logs {
+  #logs {
     padding: 12px 25px 12px 25px;
     background: #3d9898;
     border-radius: 3em;
+    margin-top: 4em !important;
+    -webkit-text-decoration: none;
     -webkit-text-decoration: none;
     -webkit-text-decoration: none;
     -webkit-text-decoration: none;
     -webkit-text-decoration: none;
     text-decoration: none;
-    margin-top: 0.3em !important;
     font-size: 16px;
+    -webkit-transition: 0.7s all;
     -webkit-transition: 0.7s all;
     -webkit-transition: 0.7s all;
     -webkit-transition: 0.7s all;
@@ -1563,13 +1565,14 @@ opacity: 1;
   
 .Li-footer img {
     width: 45px;
-    margin-top: 9em;
+    margin-top: 11em;
 }
 
   #izq{
     padding:0;
   }
   .Li-footer {
+    padding:0px;
    
     font-size: 10px;
   }
@@ -1665,10 +1668,14 @@ label{
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
     -webkit-transition: 0.7s all;
+    -webkit-transition: 0.7s all;
     transition: 0.7s all;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
 .sub {
@@ -1705,9 +1712,9 @@ label{
     cursor: pointer;
 }
 
-#displaynone{
-    display:grid;
-  }
+#displaynone {
+    display: block;
+}
 
   #contents{
     display:none;
@@ -1722,7 +1729,7 @@ label{
   .inicio {
     display: block;
     min-height: calc(50vh - 100px);
-    margin-top: 6em;
+    margin-top: 7em;
 }
 
 }
