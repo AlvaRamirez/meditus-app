@@ -1242,7 +1242,12 @@ iframe {
     transition: 1s !important;
 }
 
-
+.card-title {
+    margin-bottom: .80rem!important;
+    text-align: initial!important;
+    font-weight: bold !important;
+    color: #565656!important;
+}
 
 
 iframe:active{
@@ -1338,10 +1343,10 @@ transition:1s !important;
 }
 
 .card-title {
-    margin-bottom: .75rem;
-    text-align: initial;
-    font-weight: bold;
-    color: #565656;
+    margin-bottom: .80rem!important;
+    text-align: initial!important;
+    font-weight: bold !important;
+    color: #565656!important;
 }
 
 p {

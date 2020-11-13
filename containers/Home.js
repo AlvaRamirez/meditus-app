@@ -1,19 +1,25 @@
-import { Actividades, Videos, Nosotros, Contacto, Inicio, Footer } from 'components' 
+import {
+  Actividades,
+  Videos,
+  Nosotros,
+  Contacto,
+  Inicio,
+  Footer,
+} from "components";
 
-const Home = () => {
-    return (
-        
-            <>
-                <Inicio />
-                <Actividades />
-                <Videos />
-                <Nosotros />
-                <Contacto />
-                <Footer />
-            </>
-       
-    )
-}
+const Home = ({ data }) => {
+  console.log("data OK", data);
 
-export default Home
+  return (
+    <>
+      <Inicio />
+      <Actividades />
+      <Videos />
+      <Nosotros />
+      <Contacto />
+      <Footer />
+    </>
+  );
+};
 
+export default Home;
