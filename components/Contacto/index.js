@@ -15,11 +15,11 @@ const Contacto = () => {
 
 {/* <MailchimpSubscribe/> */}
 
-            <ul className="Ul-footer">
-             <li className="Li-footer"> <a href={'https://www.facebook.com/M%C3%A9ditus-103302038238131'} target="_blank"><img src="./assets/facebook.png"></img></a></li>
-           <li className="Li-footer">   <a href={'https://www.instagram.com/meditus.ok/'} target="_blank"> <img src="./assets/instagram.png"></img></a></li>
-           <li className="Li-footer">  <a href={'https://www.youtube.com/channel/UCiLAiAX95QVyOxol90TwM-A/?guided_help_flow=5'}target="_blank"><img src="./assets/youtube.png"></img></a></li>
-             <li className="Li-footer">  <a href={"mailto:meditus.ok@gmail.com"} target="_blank" ><img src="./assets/gmail.png"></img></a></li> 
+            <ul className="Ul">
+             <li className="Li"> <a href={'https://www.facebook.com/M%C3%A9ditus-103302038238131'} target="_blank"><img src="./assets/facebook.png"></img></a></li>
+           <li className="Li">   <a href={'https://www.instagram.com/meditus.ok/'} target="_blank"> <img src="./assets/instagram.png"></img></a></li>
+           <li className="Li">  <a href={'https://www.youtube.com/channel/UCiLAiAX95QVyOxol90TwM-A/?guided_help_flow=5'}target="_blank"><img src="./assets/youtube.png"></img></a></li>
+             <li className="Li">  <a href={"mailto:meditus.ok@gmail.com"} target="_blank" ><img src="./assets/gmail.png"></img></a></li> 
             </ul>
            
 
