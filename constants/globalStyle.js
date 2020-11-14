@@ -725,6 +725,7 @@ section{
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
+    background-attachment: fixed;
     display: flex;
     font-style: oblique;
     -ms-flex-align: center;
@@ -1519,6 +1520,9 @@ transition:1s !important;
 
 @media only screen and (max-width: 900px) {
 
+  #contvi {
+    padding-top: 40%;
+}
 
   .card {
     width: 80% !important;
@@ -1743,18 +1747,10 @@ opacity: 1;
 
 } */
 
- 
-
-
-
-
-
-  
 .Li img {
-    width: 45px;
+    width: 55px;
     margin-top: 8em;
 }
-
 
 .menu {
     display: block;

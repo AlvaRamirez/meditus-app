@@ -7,8 +7,8 @@ const Videos = () => {
         dots: false,
         infinite: false,
         speed: 1000,
-        slidesToShow: 1.22,
-        slidesToScroll: 2,
+        slidesToShow: 1.1,
+        slidesToScroll: 1,
         
       };    
       
