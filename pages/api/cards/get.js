@@ -1,7 +1,7 @@
 import { db } from "lib/firebase";
 const getCards = async () => {
   return db
-    .collection("aprende")
+    .collection("cards")
     .get()
     .then(function (querySnapshot) {
       let data = [];
@@ -18,7 +18,7 @@ const getCards = async () => {
 };
 
 const getCard = async (id) => {
-  return db.collection("aprende").doc(id).get().then(function(querySnapshot){
+  return db.collection("cards").doc(id).get().then(function(querySnapshot){
     return querySnapshot.data();
   }).catch(function(error){
       console.log('error in getCard', error);

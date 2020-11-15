@@ -106,6 +106,39 @@ a{
   top: 620px;
 }
 
+.titcard{
+  padding-top: 4em;
+  padding-bottom:2em;
+    text-align: left;
+    font-size: 2.5em;
+    font-family: "Volkhov",serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: #ccbcd7;
+}
+.contcard{
+      /* column-count: 3; */
+    /* column-rule-style: solid; */
+    /* column-gap: 40px; */
+    /* column-rule-width: 1px; */
+    column-rule: 4px solid #7278923b;
+    /* column-rule-color: lightblue; */
+    /* column-width: 100px; */
+    column-count: 3;
+    column-gap: 100px;
+    column-rule-style: solid;
+    width: 80%;
+    margin: 0 auto;
+    float: left;
+}
+
+.textcard{
+  font-size: 17px;
+    line-height: revert;
+    width: 85%;
+    margin-bottom: 1rem;
+}
+
 .Ul-header {
     display: -webkit-box;
     display: -webkit-flex;
@@ -848,6 +881,21 @@ header span.animated {
   width: 43%;
 }
 
+.back{
+  padding-top: 10.4em;
+    width: 30px;
+    position: fixed;
+    left: 130px;
+    cursor: pointer;
+    transition: 0.6s all;
+}
+
+.back:hover{
+  left: 125px;
+  
+}
+ 
+
 a{outline: none;}
 button{
   outline: none;
@@ -1225,6 +1273,7 @@ h2{
     background-repeat: inherit;
     height: auto;
     min-width: 100%;
+    display: flex;
     min-height: 95.7vh;
 }
 
@@ -1273,6 +1322,7 @@ input {
 .contacti{
   width: 75%;
     margin: 0 auto;
+    padding-bottom: 4em;
     display:block;
 }
 
@@ -1374,6 +1424,35 @@ transition:1s !important;
 
 @media only screen and (max-width: 1200px) {
 
+  .titcard {
+    padding-top: 4em;
+    padding-bottom: 1em;
+    text-align: left;
+    font-size: 2.5em;
+    font-family: "Volkhov",serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: #ccbcd7;
+    text-align: center;
+}
+.contcard{
+  -webkit-column-rule: 4px solid #7278923b;
+    column-rule: 4px solid #7278923b;
+    -webkit-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 100px;
+    column-gap: 100px;
+    -webkit-column-rule-style: solid;
+    column-rule-style: solid;
+    width: 75%;
+    padding-bottom: 3em;
+    margin: 0 auto;
+    float: inherit;
+    /* display: table-column; */
+    display: flex;
+}
+
+
 .cardcontent {
     width: 75%;
     display: -ms-flexbox;
@@ -1395,6 +1474,13 @@ transition:1s !important;
 }
 
 @media only screen and (max-width: 1000px){
+
+
+  .Li-header > .active {
+     color: white !important; 
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
 
   #contents {
     display: none;
@@ -1520,6 +1606,19 @@ transition:1s !important;
 
 @media only screen and (max-width: 900px) {
 
+  .back{
+  padding-top: 10.4em;
+    width: 35px;
+    position: fixed;
+    left: 80px;
+    cursor: pointer;
+    transition: 0.6s all;
+}
+
+.back:hover{
+  left:80px;
+}
+
   #contvi {
     padding-top: 40%;
 }
@@ -1532,6 +1631,9 @@ transition:1s !important;
     padding: 30px;
     text-align: center;
 }
+
+
+
 
 .card-body {
     -webkit-flex: 1 1 auto;
@@ -1553,6 +1655,7 @@ p {
     margin-top: 0;
     margin-bottom: 1rem;
     text-align: left;
+    font-size: 17px;
 }
 
 .btn {

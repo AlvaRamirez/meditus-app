@@ -10,7 +10,7 @@ const Aporte = ({ data }) => {
       <Card.Body>
         <Card.Title>{data.titulo}</Card.Title>
         <Card.Text>{data.contenido.substr(0, 80)}...</Card.Text>
-        <NextLink id={data.id} href="/" data={data}>
+        <NextLink id={data.id} href={`/contenido/${data.type}/${data.id}`} data={data}>
           Leer
         </NextLink>
       </Card.Body>

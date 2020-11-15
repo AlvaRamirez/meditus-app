@@ -3,6 +3,7 @@ import React from 'react'
 //import * as Scroll from 'react-scroll'
 import { default as NextLink } from 'next/link'
 import { useAuth } from 'lib/useUser';
+//import Logo from '../../public/assets'
 
 
 
@@ -13,7 +14,7 @@ const Header2 = () => {
             <div className="ml2">
                  <NextLink
                     id="meditu" href="/">
-                    <a ><img className="hvr-grow" id="logo" src="./assets/logo.png"></img> </a>
+                    <a ><img className="hvr-grow" id="logo" src='/assets/logo.png'></img> </a>
                 </NextLink> 
             </div>
 
