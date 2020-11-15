@@ -82,12 +82,12 @@ const Header = () => {
             </ul>
 
             <div className="ml">
-                 {/* <NextLink href="/login">
-                    <a className="logs">Login</a>
+                 <NextLink href="/login">
+                    <a className="hvr-grow" id="logs">Login</a>
                 </NextLink>
                 <NextLink href="/signup">
-                    <a className="logs" >Signup</a>
-                </NextLink>  */}
+                    <a className="hvr-grow" id="logs" >Signup</a>
+                </NextLink>  
                 <a className="hvr-grow" id="logs" onClick={() => auth.logout()}>Salir</a>
             </div>
             
@@ -145,7 +145,13 @@ const Header = () => {
                     >
                         Contacto</Link>
                 </li>
-                <li>  <a className="hvr-grow" id="logs" onClick={() => auth.logout()}>Salir</a></li>
+                <li>  <NextLink href="/login">
+                    <a className="hvr-grow"  id="logs">Login</a>
+                </NextLink>
+                <NextLink href="/signup">
+                    <a className="hvr-grow"  id="logs" >Signup</a>
+                </NextLink>  
+                <a className="hvr-grow" id="logs" onClick={() => auth.logout()}>Salir</a></li>
               
             </ul>
 

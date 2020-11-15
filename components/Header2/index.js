@@ -20,12 +20,12 @@ const Header2 = () => {
 
                         
             <div className="ml">
-                 {/* <NextLink href="/login">
-                    <a className="logs">Login</a>
+                 <NextLink href="/login">
+                    <a className="hvr-grow" id="logs2">Login</a>
                 </NextLink>
                 <NextLink href="/signup">
-                    <a className="logs" >Signup</a>
-                </NextLink>  */}
+                    <a className="hvr-grow" id="logs2" >Signup</a>
+                </NextLink>  
                 <a className="hvr-grow" id="logs2" onClick={() => auth.logout()}>Salir</a>
                 <div></div>
             </div>
