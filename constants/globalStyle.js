@@ -336,30 +336,36 @@ transition: 1s all;
 
 .fMUjqx input[type='submit'], .fMUjqx button {
     cursor: pointer;
+    width: 100px;
+    cursor: pointer;
     opacity: 1;
-    text-transform: capitalize;
-    background: #fff;
+
     border: 0;
+    text-transform: capitalize;
     padding: 8px 20px 8px 20px !important;
+    margin-top: 20px;
     color: #fff;
-    background-color: #8a32c6;
-    margin: 0 auto;
     font-weight: 600;
-    border-radius: 1.5em;
+    background-color: #3d9898;
+    margin: 0 auto;
+    border-radius: 2em;
 }
 
 .hYBMby input[type='submit'], .hYBMby button {
   cursor: pointer;
+  width: 100px;
+    cursor: pointer;
     opacity: 1;
-    text-transform: capitalize;
-    background: #fff;
+
     border: 0;
+    text-transform: capitalize;
     padding: 8px 20px 8px 20px !important;
+    margin-top: 20px;
     color: #fff;
-    background-color: #8a32c6;
-    margin: 0 auto;
     font-weight: 600;
-    border-radius: 1.5em;
+    background-color: #3d9898;
+    margin: 0 auto;
+    border-radius: 2em;
 }
 
 .jmlQvh {
