@@ -1696,6 +1696,12 @@ transition:1s !important;
 
 @media only screen and (max-width: 1200px) {
 
+  .contacti {
+    width: 100%;
+    margin: 0 auto;
+    display: contents;
+}
+
   .titcard {
     padding-top: 4em;
     padding-bottom: 1em;
@@ -2235,11 +2241,7 @@ opacity: 1;
     opacity: 0;
 }
 
-.contacti {
-    width: 100%;
-    margin: 0 auto;
-    display: contents;
-}
+
 
 .contents{
   position:absolute;
