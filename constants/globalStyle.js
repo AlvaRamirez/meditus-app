@@ -280,131 +280,131 @@ transition: 1s all;
 }
 
 .fMUjqx input, .fMUjqx select, .fMUjqx textarea {
-    width: 100%;
-    min-height: 50px;
-    line-height: 35px;
-    border: none;
-    background: #ffffff;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    color: w;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    padding-left: 22px;
-    border-radius: 1em;
-    font-size: 16px;
+    width: 100%!important;
+    min-height: 50px!important;
+    line-height: 35px!important;
+    border: none!important;
+    background: #ffffff!important;
+    -webkit-appearance: none!important;
+    -moz-appearance: none!important;
+    -webkit-appearance: none!important;
+    -moz-appearance: none!important;
+    -webkit-appearance: none!important;
+    -moz-appearance: none!important;
+    -webkit-appearance: none!important;
+    -moz-appearance: none!important;
+    -webkit-appearance: none!important;
+    -moz-appearance: none!important;
+
+    appearance: none!important;
+    padding-left: 22px!important;
+    border-radius: 1em!important;
+    font-size: 16px!important;
 }
 
 .hYBMby input, .hYBMby select, .hYBMby textarea {
-  width: 100%;
-    min-height: 50px;
-    line-height: 35px;
-    border: none;
-    background: #ffffff;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    color: w;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    padding-left: 22px;
-    border-radius: 1em;
-    font-size: 16px;
+  width: 100%!important;
+    min-height: 50px!important;
+    line-height: 35px!important;
+    border: none!important;
+    background: #ffffff!important;
+    -webkit-appearance: none!important;
+    -moz-appearance: none!important;
+    -webkit-appearance: none!important;
+   
+    -moz-appearance: none!important;
+    -webkit-appearance: none!important;
+    -moz-appearance: none!important;
+    -webkit-appearance: none!important;
+    -moz-appearance: none!important;
+    -webkit-appearance: none!important;
+    -moz-appearance: none!important;
+    appearance: none!important;
+    padding-left: 22px!important;
+    border-radius: 1em!important;
+    font-size: 16px!important;
 }
 
 
 .fMUjqx .input_row div {
-    position: absolute;
-    top: 24px;
-    right: 22px;
-    color: #a9a8a8;
-    font-size: 12px;
+    position: absolute!important;
+    top: 24px!important;
+    right: 22px!important;
+    color: #a9a8a8!important;
+    font-size: 12px!important;
 }
 
 .fMUjqx input[type='submit'], .fMUjqx button {
-    cursor: pointer;
-    width: 100px;
-    cursor: pointer;
-    opacity: 1;
+    cursor: pointer!important;
+    width: 100px!important;
+    cursor: pointer!important;
+    opacity: 1!important;
 
-    border: 0;
-    text-transform: capitalize;
+    border: 0!important;
+    text-transform: capitalize!important;
     padding: 8px 20px 8px 20px !important;
-    margin-top: 20px;
-    color: #fff;
-    font-weight: 600;
-    background-color: #3d9898;
-    margin: 0 auto;
-    border-radius: 2em;
+    margin-top: 20px!important;
+    color: #fff!important;
+    font-weight: 600!important;
+    background-color: #3d9898!important;
+    margin: 0 auto!important;
+    border-radius: 2em!important;
 }
 
 .hYBMby input[type='submit'], .hYBMby button {
-  cursor: pointer;
-  width: 100px;
-    cursor: pointer;
-    opacity: 1;
+  cursor: pointer!important;
+  width: 100px!important;
+    cursor: pointer!important;
+    opacity: 1!important;
 
-    border: 0;
-    text-transform: capitalize;
+    border: 0!important;
+    text-transform: capitalize!important;
     padding: 8px 20px 8px 20px !important;
-    margin-top: 20px;
-    color: #fff;
-    font-weight: 600;
-    background-color: #3d9898;
-    margin: 0 auto;
-    border-radius: 2em;
+    margin-top: 20px!important;
+    color: #fff!important;
+    font-weight: 600!important;
+    background-color: #3d9898!important;
+    margin: 0 auto!important;
+    border-radius: 2em!important;
 }
 
 .jmlQvh {
   min-height: 100vh !important;
-    background-image: url(assets/registro.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(assets/registro.jpg)!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
 }
 
 .jGUBqa{
   min-height: 100vh !important;
-    background-image: url(assets/registro.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(assets/registro.jpg)!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
 }
 
 form {
-    width: 100%;
-    display: grid;
-    text-align: center;
-    height: 50vh;
-    margin: 0 auto;
-    -webkit-align-items: center;
-    text-align: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    padding: 30px;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    -ms-flex-pack: center;
-    outline: none;
+    width: 100%!important;
+    display: grid!important;
+    text-align: center!important;
+    justify-content: center !important;
+    height: 50vh!important;
+    margin: 0 auto!important;
+    -webkit-align-items: center!important;
+    text-align: center!important;
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    -webkit-align-items: center!important;
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    -webkit-align-items: center!important;
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+    -webkit-box-pack: center!important;
+    padding: 30px!important;
+    -ms-flex-pack: center!important;
+    -ms-flex-pack: center!important;
+    outline: none!important;
 }
 
 .divcont{
