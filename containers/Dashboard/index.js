@@ -1,5 +1,6 @@
 import Container from './styles';
 import { useProtected } from 'lib/useProtected';
+import Header2 from '../../components/Header2'
 
 const Dashboard = () => {
 
@@ -9,8 +10,11 @@ const Dashboard = () => {
 
     return (
         <Container>
+              <Header2 />
             <h1>Dashboard</h1>
-            <h2>{auth.user.email}</h2>
+            <h2 className="nombrede" >{auth.user.email} ✔</h2>
+           <a className="botonlisto2" href="/"> Ir al inicio </a>
+     
         </Container>
     )
 }

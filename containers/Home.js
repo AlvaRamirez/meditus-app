@@ -5,6 +5,7 @@ import {
   Contacto,
   Inicio,
   Footer,
+  Header,
 } from "components";
 
 const Home = ({ data }) => {
@@ -12,6 +13,7 @@ const Home = ({ data }) => {
 
   return (
     <>
+     <Header />
       <Inicio />
       <Actividades />
       <Videos />

@@ -1,6 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const GlobalStyle = createGlobalStyle`
 
@@ -108,7 +107,7 @@ a{
 
 .titcard{
   padding-top: 4em;
-  padding-bottom:2em;
+  padding-bottom: 1.5em;
     text-align: left;
     font-size: 2.5em;
     font-family: "Volkhov",serif;
@@ -267,16 +266,19 @@ transition: 1s all;
 
 }
 .hYBMby {
-  margin-top: 8em !important;
+    margin:0 auto !important;
     width: 100% !important;
 }
 
+
+
 .fMUjqx {
-    margin-top: 8em !important;
+  margin:0 auto !important;
     width: 100% !important;
 }
 .fMUjqx .error_message{
   opacity:0;
+  padding:0px !important;
 }
 
 .fMUjqx input, .fMUjqx select, .fMUjqx textarea {
@@ -333,13 +335,20 @@ transition: 1s all;
     color: #a9a8a8!important;
     font-size: 12px!important;
 }
+.nombrede{
+  font-family: "Volkhov",serif;
+    font-style: oblique;
+    margin-top: 10px;
+    text-align: center;
+    color: #03e051;
+    margin-top: 11em;
+    margin-bottom: 1.5em;
+}
 
-.fMUjqx input[type='submit'], .fMUjqx button {
+.botonlisto{
     cursor: pointer!important;
     width: 100px!important;
-    cursor: pointer!important;
     opacity: 1!important;
-
     border: 0!important;
     text-transform: capitalize!important;
     padding: 8px 20px 8px 20px !important;
@@ -349,8 +358,23 @@ transition: 1s all;
     background-color: #3d9898!important;
     margin: 0 auto!important;
     border-radius: 2em!important;
+    outline:none!important;
+    transition:0.7s;
+}
+.botonlisto:hover{
+  transition:0.7s;
+  background-color: #493d98!important;
+  outline:none!important;
+
 }
 
+.botonlisto a{
+  text-decoration:none;
+  color:white;
+  font-weight: 600!important;
+}
+
+/* 
 .hYBMby input[type='submit'], .hYBMby button {
   cursor: pointer!important;
   width: 100px!important;
@@ -366,19 +390,45 @@ transition: 1s all;
     background-color: #3d9898!important;
     margin: 0 auto!important;
     border-radius: 2em!important;
-}
+} */
 
 .jmlQvh {
   min-height: 100vh !important;
     background-image: url(assets/registro.jpg)!important;
     background-size: cover!important;
+    
     background-repeat: no-repeat!important;
+    text-align:center!important;
+}
+
+.botonlisto2{
+  cursor: pointer!important;
+    width: 100px!important;
+    opacity: 1!important;
+    border: 0!important;
+    text-transform: inherit!important;
+    padding: 8px 20px 8px 20px !important;
+    color: #fff!important;
+    font-weight: 600!important;
+    background-color: #3d9898!important;
+    border-radius: 2em!important;
+    outline: none!important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+}
+
+.botonlisto2:hover{
+  transition:0.7s;
+  background-color: #493d98!important;
+  outline:none!important;
+
 }
 
 .jGUBqa{
   min-height: 100vh !important;
     background-image: url(assets/registro.jpg)!important;
     background-size: cover!important;
+    text-align:center!important;
     background-repeat: no-repeat!important;
 }
 
@@ -401,7 +451,7 @@ form {
     -ms-flex-align: center!important;
     align-items: center!important;
     -webkit-box-pack: center!important;
-    padding: 30px!important;
+    padding: 30px;
     -ms-flex-pack: center!important;
     -ms-flex-pack: center!important;
     outline: none!important;
@@ -416,20 +466,34 @@ form {
 #botondona{
   margin: 20px !important;
     padding: 10px 10px 10px 10px!important;
-    border-radius: 10px;
-    background: #a472c7;
+    border-radius: 3em;
+    background-color: #3d9898!important;
     color: white;
     font-weight: bolder;
     font-size: 15.4px;
-    margin-top: 52px !important;
 }
+
+.carga{
+  text-align: center;
+    height: 65vh;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 13em;
+}
+
+.imgcarga{
+  border-radius: 9em; 
+     width: 60px;
+}
+
 #contdona{
   text-align: center;
-    margin-bottom: 6em;
-    margin-top: 4.5em;
-    border-top: 2px solid #b7b7b7;
-    padding: 2em 1em 3em 1em;
-    border-bottom: 2px solid #b7b7b7;
+    padding-bottom: 4em;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 1em;
 }
   
 
@@ -621,7 +685,7 @@ form {
     margin: 0 auto;
 }
 
-textarea{
+/* textarea{
   width: 90%;
   height: 12vh;
   border-radius: 1em;
@@ -631,6 +695,49 @@ textarea{
   resize: none;
   padding: 10px;
   margin: 10px 0px 20px 10px;
+} */
+
+.hola{
+  text-align: center;
+    padding-top: 5.5em !important;
+    color: #3ec4c4;
+    font-style: italic;
+    margin: 0 auto;
+    font-size: 2.2em;
+    font-weight: bold;
+    font-family: Volkhov;
+}
+
+.irasing{
+  text-align: center;
+    color: white;
+}
+.irasing p{
+  margin:0 auto !important;
+    font-style: oblique;
+    font-size: 14.5px;
+    transition:0.7s all;
+}
+
+
+.irasing a{
+  text-decoration:none !important;
+  color: aqua;
+  transition:0.7s all;
+}
+
+
+.irasing a:hover{
+  opacity:0.7;
+ transition:0.7s all;
+}
+
+.hYBMby .input_row div {
+    position: absolute !important;
+    top: 24px!important;
+    right: 22px!important;
+    color: #5c5c5c!important;
+    font-size: 13px!important;
 }
 
 .texto {
@@ -1417,7 +1524,7 @@ h2{
     background-repeat: inherit;
     height: auto;
     min-width: 100%;
-    display: flex;
+    display: flow-root;
     min-height: 95.7vh;
 }
 
@@ -1455,19 +1562,22 @@ input {
 .titact{
   padding-top: 4em;
     text-align: center;
+    width: 72%;
     font-size: 2.5em;
+    margin: 0 auto;
     font-family: "Volkhov",serif;
     font-style: oblique;
     font-weight: bold;
     color: #ccbcd7;
+    text-align: left;
 
 }
 
 .contacti{
   width: 75%;
     margin: 0 auto;
-    padding-bottom: 4em;
     display:block;
+    height: 91vh;
 }
 
 .cardcontent{
@@ -1477,7 +1587,7 @@ input {
     display: -ms-flexbox;
     display: grid;
     margin: 0 auto;
-    padding-top: 5em;
+    padding-top: 4em;
     display: grid;
     /* grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 1fr;
@@ -1772,16 +1882,41 @@ transition:1s !important;
 
 @media only screen and (max-width: 900px) {
   .back {
-    padding-top: 8em;
-    width: 35px;
-    /* border-radius: 3em; */
-    /* margin: 20px; */
+    padding-top: 8.2em;
+    width: 30px;
     position: fixed;
     left: 40px;
-    /* background: gainsboro; */
     cursor: pointer;
     -webkit-transition: 0.6s all;
+    -webkit-transition: 0.6s all;
     transition: 0.6s all;
+}
+
+
+.titcard {
+    padding-top: 4.5em;
+    padding-bottom: 1em;
+    text-align: left;
+    font-size: 1.8em;
+    font-family: "Volkhov",serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: #ccbcd7;
+    text-align: center;
+    padding-left: 1em;
+}
+
+
+.hola {
+    text-align: center;
+    padding-top: 5.5em !important;
+    color: #3ec4c4;
+    font-style: italic;
+    margin: 0 auto;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Volkhov;
+    padding-bottom: 0.5em;
 }
 
 .back:hover{
@@ -1825,6 +1960,14 @@ p {
     margin-bottom: 1rem;
     text-align: left;
     font-size: 17px;
+}
+
+.irasing p{
+  margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-size: 17px;
+    text-align:center;
 }
 
 .btn {
@@ -2070,14 +2213,24 @@ opacity: 1;
 
 
 .ml2 {
-  width: 40%;
+    width: 37%;
     text-align: center;
     margin: 0 auto;
+    margin-left: 7.3em;
 }
 
-.App-header2 {
-    padding-left: 5.5em;
+.nombrede {
+    font-family: "Volkhov",serif;
+    font-style: oblique;
+    margin-top: 10px;
+    text-align: center;
+    color: #03e051;
+    font-size: 1.7em;
+    margin-top: 12em;
+    margin-bottom: 1.5em;
 }
+
+
 #logs2 {
     opacity: 0;
 }
@@ -2085,7 +2238,7 @@ opacity: 1;
 .contacti {
     width: 100%;
     margin: 0 auto;
-    display: block;
+    display: contents;
 }
 
 .contents{

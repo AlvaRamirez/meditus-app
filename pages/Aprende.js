@@ -24,13 +24,18 @@ export default function Aprende() {
         <Header2 />
         <div className="contacti">
           <h1 className="titact">Aprende</h1>
+          {/* <div className="carga">
+            <img class="imgcarga" src="assets/caga.gif"></img>
+          </div> */}
           <div className="cardcontent">
             {cards.map((card) => (
               <Card data={card} id={card.id} />
             ))}
           </div>
         </div>
+        <Aporte />
       </div>
+    
       <Footer />
     </div>
   );

@@ -3,10 +3,14 @@ import { Link } from 'react-scroll'
 import * as Scroll from 'react-scroll'
 import { default as NextLink } from 'next/link'
 import { useAuth } from 'lib/useUser';
-
+import { useAuthState } from "contexts/AuthContext";
+//   <NextLink href="/signup">
+//                     <a className="hvr-grow"  id="logs" >Signup</a>
+//                 </NextLink>   
 
 const Header = () => {
     const auth = useAuth();
+    const { ...userData } = useAuthState();
     return (
         <header className="App-header">
             <div className="ml">
@@ -80,17 +84,17 @@ const Header = () => {
                 </li>
 
             </ul>
-
+           
             <div className="ml">
-                 <NextLink href="/login">
-                    <a className="hvr-grow" id="logs">Login</a>
-                </NextLink>
-                <NextLink href="/signup">
-                    <a className="hvr-grow" id="logs" >Signup</a>
-                </NextLink>  
+            {!userData ? (
+       <NextLink href="/login">
+       <a  className="hvr-grow" id="logs">Ingresar</a>
+       </NextLink>
+            ) : (
                 <a className="hvr-grow" id="logs" onClick={() => auth.logout()}>Salir</a>
-            </div>
-            
+           
+             )}
+              </div>
             </div>
           
             <input type="checkbox" id="btn-menu"/>
@@ -145,12 +149,10 @@ const Header = () => {
                     >
                         Contacto</Link>
                 </li>
-                <li>  <NextLink href="/login">
-                    <a className="hvr-grow"  id="logs">Login</a>
-                </NextLink>
-                <NextLink href="/signup">
-                    <a className="hvr-grow"  id="logs" >Signup</a>
-                </NextLink>  
+                 <li> {/* <NextLink href="/login">
+                    <a className="hvr-grow"  id="logs">Ingresar</a>
+                </NextLink> */}
+               
                 <a className="hvr-grow" id="logs" onClick={() => auth.logout()}>Salir</a></li>
               
             </ul>

@@ -1,7 +1,10 @@
 import React from 'react'
 import { default as NextLink } from 'next/link'
 import { useUser } from 'lib/useUser'
+
+//{auth.user ? `/Aprende` : `/login`}
 //   {auth.user ? `/Experimenta` : `/login`} 
+
 export default function Actividades() {
     const auth = useUser();
     return (
@@ -11,12 +14,12 @@ export default function Actividades() {
 
                 <div id="contnoo">
                     <div id="izq">
-                        <NextLink href="/Aprende">
+                        <NextLink href={auth.user ? `/Aprende` : `/login`}  >
                             <a ><img className="hvr-float" id="imgder" src="./assets/Grupo 104.png"></img></a>
                         </NextLink>
                     </div>
                     <div id="der">
-                        <NextLink href="/Experimenta" > 
+                        <NextLink href={auth.user ? `/Experimenta` : `/login`}  > 
                             <a ><img className="hvr-float" id="imgiz" src="./assets/Grupo 103.png"></img></a>
                         </NextLink>
                     </div>

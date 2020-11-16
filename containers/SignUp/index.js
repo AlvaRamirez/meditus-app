@@ -6,8 +6,10 @@ const SignUp = () => {
     return (
         <Container>
             <Header2 />
-            <h1>Sign Up</h1>
+            <h1 className="hola">Bienvenido</h1>
             <SignUpForm />
+            <div className="irasing"> <p>¿Ya tienes cuenta? <a href="login">Ingresa</a></p>
+            <p>También puedes <a href="/">seguir navegando</a></p> </div>
         </Container>
     )
 }
