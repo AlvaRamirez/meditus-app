@@ -31,7 +31,7 @@ export default function Experimenta() {
         <Aporte />
       </div>
       
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

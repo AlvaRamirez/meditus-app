@@ -36,7 +36,7 @@ export default function Aprende() {
         <Aporte />
       </div>
     
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

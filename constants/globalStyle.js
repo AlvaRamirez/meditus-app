@@ -107,7 +107,7 @@ a{
 
 .titcard{
   padding-top: 4em;
-  padding-bottom: 1.5em;
+  padding-bottom: 2em;
     text-align: left;
     font-size: 2.5em;
     font-family: "Volkhov",serif;
@@ -487,22 +487,22 @@ form {
   border-radius: 9em; 
      width: 60px;
 }
-
-#contdona{
-  text-align: center;
-    padding-bottom: 4em;
-    width: 75%;
-    margin: 0 auto;
-    padding-top: 1em;
+#contdona {
+    text-align: center;
+    padding-bottom: 0em;
+    width: 85%;
+    margin: 46px auto;
+    padding-top: 1.9em;
+    border-top: 3px solid #c4c4c48c;
+    border-radius: 4em;
 }
   
-
-#donar{
-  text-align: center;
+#donar {
+    text-align: center;
     font-size: 14px;
-    color: #424242;
+    color: rgb(66, 66, 66);
     font-style: oblique;
-    padding-bottom: 1.5em;
+    padding-bottom: 1em;
 }
 .contparra{
   margin-bottom: 5%;
@@ -1525,7 +1525,7 @@ h2{
     height: auto;
     min-width: 100%;
     display: flow-root;
-    min-height: 95.7vh;
+    min-height: 100vh;
 }
 
 input {
@@ -1558,26 +1558,23 @@ input {
     margin-bottom: 3em !important;
     border-radius: 1em !important;
 }
-
-.titact{
-  padding-top: 4em;
-    text-align: center;
+.titact {
+    padding-top: 4em;
     width: 72%;
     font-size: 2.5em;
-    margin: 0 auto;
-    font-family: "Volkhov",serif;
+    margin: 0px auto;
+    font-family: Volkhov, serif;
     font-style: oblique;
     font-weight: bold;
-    color: #ccbcd7;
+    color: rgb(204, 188, 215);
     text-align: left;
-
 }
 
-.contacti{
-  width: 75%;
-    margin: 0 auto;
-    display:block;
-    height: 91vh;
+.contacti {
+    width: 75%;
+    margin: 0px auto;
+    display: block;
+    height: 77vh!important;
 }
 
 .cardcontent{
@@ -1587,7 +1584,7 @@ input {
     display: -ms-flexbox;
     display: grid;
     margin: 0 auto;
-    padding-top: 4em;
+    padding-top: 3em;
     display: grid;
     /* grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 1fr;
@@ -1700,6 +1697,11 @@ transition:1s !important;
     width: 100%;
     margin: 0 auto;
     display: contents;
+    height: 77vh!important
+}
+.titact{
+  text-align:center;
+  padding-bottom: 1em;
 }
 
   .titcard {
