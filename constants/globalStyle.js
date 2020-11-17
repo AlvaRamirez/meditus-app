@@ -488,13 +488,14 @@ form {
      width: 60px;
 }
 #contdona {
-    text-align: center;
+  text-align: center;
     padding-bottom: 0em;
     width: 85%;
-    margin: 46px auto;
+    margin: 0 auto;
     padding-top: 1.9em;
     border-top: 3px solid #c4c4c48c;
     border-radius: 4em;
+    margin-bottom: 3em;
 }
   
 #donar {
@@ -1558,8 +1559,26 @@ input {
     margin-bottom: 3em !important;
     border-radius: 1em !important;
 }
+
+.conttotal{
+  display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.botonir{
+  padding-top: 10em;
+    margin: 0 auto !important;
+    color: #2d90b6 !important;
+    font-weight: 700;
+}
+
 .titact {
-    padding-top: 4em;
+  padding-top: 3.8em;
     width: 70%;
     font-size: 2.5em;
     margin: 0px auto;
@@ -1567,6 +1586,7 @@ input {
     font-style: oblique;
     font-weight: bold;
     color: rgb(204, 188, 215);
+    margin: 0;
     text-align: left;
 }
 
@@ -1574,7 +1594,7 @@ input {
     width: 75%;
     margin: 0px auto;
     display: block;
-    height: 78vh!important;
+   
 }
 
 .cardcontent{
@@ -1889,6 +1909,25 @@ transition:1s !important;
 }
 
 @media only screen and (max-width: 900px) {
+
+.conttotal{
+  display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+  .botonir{
+  padding-top: 0em;
+    margin: 0 auto !important;
+    position: absolute;
+    padding-left: 12em;
+  }
+
   .back {
     padding-top: 8.2em;
     width: 30px;

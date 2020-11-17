@@ -21,7 +21,10 @@ export default function Experimenta() {
       <div className="fondo">
         <Header2 />
         <div className="contacti">
+          <div className="conttotal">  
           <h1 className="titact">Experimentá</h1>
+          <a className="botonir" href="Aprende">ir a Aprende </a></div>
+        
           <div className="cardcontent">
             {cards.map((card) => (
               <Card data={card} id={card.id} />
@@ -31,7 +34,7 @@ export default function Experimenta() {
         <Aporte />
       </div>
       
-      {/* <Footer /> */}
+       <Footer /> 
     </div>
   );
 };

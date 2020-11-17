@@ -23,7 +23,10 @@ export default function Aprende() {
       <div className="fondo">
         <Header2 />
         <div className="contacti">
+        <div className="conttotal"> 
           <h1 className="titact">Aprende</h1>
+          <a className="botonir" href="Experimenta">ir a Experimenta</a>
+          </div>
           {/* <div className="carga">
             <img class="imgcarga" src="assets/caga.gif"></img>
           </div> */}
@@ -36,7 +39,7 @@ export default function Aprende() {
         <Aporte />
       </div>
     
-      {/* <Footer /> */}
+       <Footer /> 
     </div>
   );
 };
