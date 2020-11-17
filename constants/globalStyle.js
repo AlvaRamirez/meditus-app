@@ -1560,7 +1560,7 @@ input {
 }
 .titact {
     padding-top: 4em;
-    width: 72%;
+    width: 70%;
     font-size: 2.5em;
     margin: 0px auto;
     font-family: Volkhov, serif;
@@ -1574,7 +1574,7 @@ input {
     width: 75%;
     margin: 0px auto;
     display: block;
-    height: 77vh!important;
+    height: 78vh!important;
 }
 
 .cardcontent{
