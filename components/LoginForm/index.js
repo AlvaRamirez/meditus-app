@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import axios from 'axios';
 import { Container } from './styles'
-import { useAuth } from 'lib/useUser';
+import { useUser } from 'lib/useUser';
+
 
 const LoginForm = () => {
     const [message, setMessage] = useState('');
-    const auth = useAuth();
+    const auth = useUser();
 
     return (
         <Container>

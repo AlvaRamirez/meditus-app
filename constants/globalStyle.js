@@ -107,8 +107,9 @@ a{
 
 .titcard{
   padding-top: 4em;
-  padding-bottom: 2em;
-    text-align: left;
+    text-align: center;
+    padding-bottom: 1.5em;
+    text-align: center;
     font-size: 2.5em;
     font-family: "Volkhov",serif;
     font-style: oblique;
@@ -116,19 +117,10 @@ a{
     color: #ccbcd7;
 }
 .contcard{
-      /* column-count: 3; */
-    /* column-rule-style: solid; */
-    /* column-gap: 40px; */
-    /* column-rule-width: 1px; */
-    column-rule: 4px solid #7278923b;
-    /* column-rule-color: lightblue; */
-    /* column-width: 100px; */
-    column-count: 3;
-    column-gap: 100px;
-    column-rule-style: solid;
-    width: 80%;
+  width: 50%;
     margin: 0 auto;
-    float: left;
+    font-size: 19.5px;
+    padding-bottom: 3em;
 }
 
 .textcard{
@@ -1134,16 +1126,25 @@ header span.animated {
 
 
 .back{
-  padding-top: 10.4em;
-    width: 30px;
+  margin-top: 9.5em;
+    width: 50px;
     position: fixed;
-    left: 130px;
+    left: 215px;
     cursor: pointer;
+    padding: 10px;
+    -webkit-transition: 0.6s all;
+    -webkit-transition: 0.6s all;
     transition: 0.6s all;
+    border-radius: 3em;
+    /* box-shadow: -1px 2px 8px -2px rgba(0,0,0,0.69); */
+    -webkit-box-shadow: -1px 2px 8px -2px rgb(0 0 0 / 27%);
+    -moz-box-shadow: -1px 2px 8px -2px rgba(0,0,0,0.69);
+    background: white;
+    
 }
 
 .back:hover{
-  left: 125px;
+  left: 210px;
   
 }
  
@@ -1720,8 +1721,8 @@ transition:1s !important;
     height: 77vh!important
 }
 .titact{
-  text-align:center;
-  padding-bottom: 1em;
+  text-align: left;
+    padding-bottom: 0em;
 }
 
   .titcard {
@@ -1922,21 +1923,28 @@ transition:1s !important;
 }
 
   .botonir{
-  padding-top: 0em;
+    padding-top: 1em;
     margin: 0 auto !important;
     position: absolute;
     padding-left: 12em;
   }
 
   .back {
-    padding-top: 8.2em;
-    width: 30px;
+    margin-top: 7.6em;
+    width: 45px;
     position: fixed;
     left: 40px;
+    padding: 10px;
+    border-radius: 3em;
+    background: white;
     cursor: pointer;
     -webkit-transition: 0.6s all;
     -webkit-transition: 0.6s all;
+    -webkit-transition: 0.6s all;
+    -webkit-transition: 0.6s all;
     transition: 0.6s all;
+    -webkit-box-shadow: -1px 2px 8px -2px rgb(0 0 0 / 27%);
+    -moz-box-shadow: -1px 2px 8px -2px rgba(0,0,0,0.69);
 }
 
 

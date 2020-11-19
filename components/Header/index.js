@@ -1,16 +1,20 @@
-import React from 'react'
+import React, { useContext }from 'react'
 import { Link } from 'react-scroll'
 import * as Scroll from 'react-scroll'
 import { default as NextLink } from 'next/link'
-import { useAuth } from 'lib/useUser';
+import { AppContext } from "../../contexts/appContext"
 import { useAuthState } from "contexts/AuthContext";
+import { useUser } from '../../lib/useUser';
 //   <NextLink href="/signup">
 //                     <a className="hvr-grow"  id="logs" >Signup</a>
 //                 </NextLink>   
 
 const Header = () => {
-    const auth = useAuth();
-    const { ...userData } = useAuthState();
+    const auth = useUser();
+    // const { ...userData } = useAuthState();
+    const [user, setUser] = useContext(AppContext);
+
+    console.log(user);
     return (
         <header className="App-header">
             <div className="ml">
@@ -86,7 +90,7 @@ const Header = () => {
             </ul>
            
             <div className="ml">
-            {!userData ? (
+            {!user ?  (
        <NextLink href="/login">
        <a  className="hvr-grow" id="logs">Ingresar</a>
        </NextLink>
@@ -149,11 +153,15 @@ const Header = () => {
                     >
                         Contacto</Link>
                 </li>
-                 <li> {/* <NextLink href="/login">
-                    <a className="hvr-grow"  id="logs">Ingresar</a>
-                </NextLink> */}
-               
-                <a className="hvr-grow" id="logs" onClick={() => auth.logout()}>Salir</a></li>
+                 <li>
+            {!user ?  (
+       <NextLink href="/login">
+       <a  className="hvr-grow" id="logs">Ingresar</a>
+       </NextLink>
+            ) : (
+                <a className="hvr-grow" id="logs" onClick={() => auth.logout()}>Salir</a>
+           
+             )}</li>
               
             </ul>
 

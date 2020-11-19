@@ -24,13 +24,13 @@ export default async (req, res) => {
                 .set(
                     {
                         nombre: name,
-                         apellido: lastname,
-                          username,
+                        //  apellido: lastname,
+                        //   username,
                         password,
-                           dni,
-                       favoritos: [],
+                    //        dni,
+                    //    favoritos: [],
                         email: email,
-                        posts: []
+                        // posts: []
                     }
                 )
                 .then(() => {
