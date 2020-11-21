@@ -95,6 +95,16 @@ a{
   cursor: pointer !important;
   text-decoration:none !important;
   margin: 0 auto !important;
+  outline: none;
+    font-weight: 600;
+    transition: 0.6s all;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 #fondocompleto {
@@ -105,22 +115,32 @@ a{
   top: 620px;
 }
 
-.titcard{
-  padding-top: 4em;
+.titcard {
+    margin-top: 1.5em !important;
+    text-align: center !important;
+    padding-bottom: 1.9em;
     text-align: center;
-    padding-bottom: 1.5em;
-    text-align: center;
-    font-size: 2.5em;
+    font-size: 2.7em;
     font-family: "Volkhov",serif;
     font-style: oblique;
     font-weight: bold;
-    color: #ccbcd7;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 0px;
+    position: absolute;
 }
+
+.img_b{
+  padding: 0px;
+    margin: 0 auto;
+    width: 100%;
+}
+
 .contcard{
   width: 50%;
     margin: 0 auto;
     font-size: 19.5px;
-    padding-bottom: 3em;
+    padding-bottom: 2em;
 }
 
 .textcard{
@@ -175,6 +195,13 @@ cursor: pointer;
   justify-content: center;
   transition: 0.7s all;
   margin: 30px;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 .ajust{
@@ -195,6 +222,13 @@ cursor: pointer;
     transition: 0.7s all;
     font-family: 'Nunito Sans',sans-serif;
     color: white;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 #logs:hover{
@@ -223,6 +257,13 @@ cursor: pointer;
 
 .Li-header a{
   transition: 0.7s all;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 .Li-header a:hover {
@@ -337,6 +378,48 @@ transition: 1s all;
     margin-bottom: 1.5em;
 }
 
+
+
+.banner_img {
+    width: 100%;
+    background-position: center;
+    max-height: 43vh;
+    min-height: 43vh;
+
+    margin-bottom: 3em !important;
+    display: flex;
+    background-position: bottom;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    padding: 0px;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    -webkit-align-items: center;
+    overflow: hidden;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    justify-items: center;
+}
+
+
 .botonlisto{
     cursor: pointer!important;
     width: 100px!important;
@@ -352,6 +435,13 @@ transition: 1s all;
     border-radius: 2em!important;
     outline:none!important;
     transition:0.7s;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 .botonlisto:hover{
   transition:0.7s;
@@ -482,7 +572,7 @@ form {
 #contdona {
   text-align: center;
     padding-bottom: 0em;
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     padding-top: 1.9em;
     border-top: 3px solid #c4c4c48c;
@@ -674,7 +764,13 @@ form {
 }
 
 #logo {
-  
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
     margin: 0 auto;
 }
 
@@ -734,7 +830,7 @@ form {
 }
 
 .texto {
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 0;
 }
 
@@ -1125,23 +1221,21 @@ header span.animated {
 
 
 
-.back{
-  margin-top: 9.5em;
-    width: 50px;
+.back {
+    /* margin-top: 8em; */
+    width: 40px;
     position: fixed;
     left: 215px;
     cursor: pointer;
-    padding: 10px;
-    -webkit-transition: 0.6s all;
-    -webkit-transition: 0.6s all;
+    top: 135px;
+    padding: 8px;
     transition: 0.6s all;
     border-radius: 3em;
-    /* box-shadow: -1px 2px 8px -2px rgba(0,0,0,0.69); */
     -webkit-box-shadow: -1px 2px 8px -2px rgb(0 0 0 / 27%);
     -moz-box-shadow: -1px 2px 8px -2px rgba(0,0,0,0.69);
-    background: white;
-    
+    background: #9b5ac5;
 }
+
 
 .back:hover{
   left: 210px;
@@ -1519,6 +1613,12 @@ h2{
 
 }
 
+.contir{
+  text-align: center;
+    padding-top: 2em;
+    width: 100%;
+    height: 14.5vh;
+}
 
 .fondo {
   background-image: url('./assets/fondocompleto.png');
@@ -1527,7 +1627,7 @@ h2{
     height: auto;
     min-width: 100%;
     display: flow-root;
-    min-height: 100vh;
+    min-height: 95.44vh;
 }
 
 input {
@@ -1559,6 +1659,10 @@ input {
     margin: 0 auto !important;
     margin-bottom: 3em !important;
     border-radius: 1em !important;
+    border: none;
+    -webkit-box-shadow: -1px 2px 8px -2px rgb(0 0 0 / 25%);
+    -moz-box-shadow: -1px 2px 8px -2px rgba(0,0,0,0.69);
+
 }
 
 .conttotal{
@@ -1579,14 +1683,14 @@ input {
 }
 
 .titact {
-  padding-top: 3.8em;
-    width: 70%;
-    font-size: 2.5em;
+  padding-top: 4.6em;
+    width: 100%;
+    font-size: 2em;
     margin: 0px auto;
     font-family: Volkhov, serif;
     font-style: oblique;
     font-weight: bold;
-    color: rgb(204, 188, 215);
+    color: rgb(194 168 213);
     margin: 0;
     text-align: left;
 }
@@ -1605,7 +1709,7 @@ input {
     display: -ms-flexbox;
     display: grid;
     margin: 0 auto;
-    padding-top: 3em;
+    padding-top: 3.2em;
     display: grid;
     /* grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 1fr;
@@ -1721,21 +1825,23 @@ transition:1s !important;
     height: 77vh!important
 }
 .titact{
-  text-align: left;
+  text-align: center;
     padding-bottom: 0em;
+    padding-top: 3.5em;
+    font-size: 2.5em !important;
 }
 
   .titcard {
-    padding-top: 4em;
-    padding-bottom: 1em;
-    text-align: left;
-    font-size: 2em;
+    padding-top: 4.5em;
+    text-align: center;
+    padding-bottom: 1.5em;
+    text-align: center;
+    font-size: 2.8em;
     font-family: "Volkhov",serif;
     font-style: oblique;
     font-weight: bold;
-    color: #ccbcd7;
-    text-align: center;
-    padding-left: 1em;
+    color: #ffffff;
+   
 }
 
 .contcard{
@@ -1905,12 +2011,54 @@ transition:1s !important;
   #logo {
     margin: 0 auto;
     
-    width: 114% !important;
+    width: 100% !important;
 }
 }
 
 @media only screen and (max-width: 900px) {
 
+
+  .banner_img {
+    width: 100%;
+    background-position: center;
+    min-height: 33vh;
+    display: block;
+    margin-bottom: 3em !important;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    justify-items: center;
+}
 .conttotal{
   display: flex;
     justify-content: center;
@@ -1928,16 +2076,19 @@ transition:1s !important;
     position: absolute;
     padding-left: 12em;
   }
-
   .back {
-    margin-top: 7.6em;
-    width: 45px;
+     margin-top: 0px;
+    width: 35px;
     position: fixed;
-    left: 40px;
-    padding: 10px;
+    z-index: 1111;
+    left: 44px;
+    top: 20px;
+    padding: 6px;
     border-radius: 3em;
-    background: white;
+    background: #9b5ac5;
     cursor: pointer;
+    -webkit-transition: 0.6s all;
+    -webkit-transition: 0.6s all;
     -webkit-transition: 0.6s all;
     -webkit-transition: 0.6s all;
     -webkit-transition: 0.6s all;
@@ -1946,19 +2097,17 @@ transition:1s !important;
     -webkit-box-shadow: -1px 2px 8px -2px rgb(0 0 0 / 27%);
     -moz-box-shadow: -1px 2px 8px -2px rgba(0,0,0,0.69);
 }
-
-
 .titcard {
-    padding-top: 4.5em;
-    padding-bottom: 1em;
-    text-align: left;
-    font-size: 1.8em;
+  padding-top: 3em;
+    font-size: 2em;
     font-family: "Volkhov",serif;
     font-style: oblique;
     font-weight: bold;
-    color: #ccbcd7;
+    color: #ffffff;
     text-align: center;
-    padding-left: 1em;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
 }
 
 
@@ -1988,6 +2137,7 @@ transition:1s !important;
     margin-bottom: 3em !important;
     border-radius: 1em !important;
     padding: 30px;
+    padding-bottom: 15px;
     text-align: center;
 }
 
@@ -2014,7 +2164,20 @@ p {
     margin-top: 0;
     margin-bottom: 1rem;
     text-align: left;
-    font-size: 17px;
+    padding-bottom: 1em;
+    font-size: 18px;
+    margin: 0 auto;
+    color: #808080d1;
+}
+
+.cardtext{
+  margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-size: 18px;
+    margin: 0 auto;
+    font-family: 'Nunito Sans',sans-serif;
+    color:black !important;
 }
 
 .irasing p{
@@ -2041,7 +2204,7 @@ p {
     width: 100%;
     display: -ms-flexbox;
     margin: 0 auto;
-    padding-top: 4em;
+    padding-top: 3.5em;
     grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3];
     display: inline-table !important;
 }
@@ -2268,10 +2431,10 @@ opacity: 1;
 
 
 .ml2 {
-    width: 37%;
+  width: 37%;
     text-align: center;
     margin: 0 auto;
-    margin-left: 7.3em;
+    margin-left: 8em;
 }
 
 .nombrede {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Footer from "../components/Footer";
-import Aporte from "../components/Aporte";
+// import Aporte from "../components/Aporte";
 import Header2 from "../components/Header2";
 import Card from "../components/Card";
 import {getCards} from "./api/aprende/get";
@@ -25,7 +25,6 @@ export default function Aprende() {
         <div className="contacti">
         <div className="conttotal"> 
           <h1 className="titact">Aprende</h1>
-          <a className="botonir" href="Experimenta">ir a Experimenta</a>
           </div>
           {/* <div className="carga">
             <img class="imgcarga" src="assets/caga.gif"></img>
@@ -36,9 +35,11 @@ export default function Aprende() {
             ))}
           </div>
         </div>
-        <Aporte />
+        {/* <Aporte /> */}
+            <div className="contir"> <a className="botonlisto" href="Experimenta">Experimenta -🢒</a></div>
+       
       </div>
-    
+      
        <Footer /> 
     </div>
   );

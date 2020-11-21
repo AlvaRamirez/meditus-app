@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import { default as NextLink } from "next/link";
 
-const Aporte = ({ data }) => {
+const Cards = ({ data }) => {
   return (
     <Card style={{ width: "18rem" }}>
       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
@@ -18,4 +18,4 @@ const Aporte = ({ data }) => {
   );
 };
 
-export default Aporte;
+export default Cards;

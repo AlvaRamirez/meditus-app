@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Header2 from "../components/Header2";
 import Card from "../components/Card";
 import {getCards} from "./api/cards/get";
-import Aporte from '../components/Aporte'
+// import Aporte from '../components/Aporte'
 export default function Experimenta() {
   const [cards, setCards] = useState([]);
 
@@ -23,17 +23,17 @@ export default function Experimenta() {
         <div className="contacti">
           <div className="conttotal">  
           <h1 className="titact">Experimentá</h1>
-          <a className="botonir" href="Aprende">ir a Aprende </a></div>
-        
+         </div>
           <div className="cardcontent">
             {cards.map((card) => (
               <Card data={card} id={card.id} />
             ))}
           </div>
         </div>
-        <Aporte />
+        {/* <Aporte /> */}
+      <div className="contir"><a className="botonlisto" href="Aprende">Aprende -🢒</a></div>  
       </div>
-      
+     
        <Footer /> 
     </div>
   );
