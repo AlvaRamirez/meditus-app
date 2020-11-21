@@ -1700,7 +1700,7 @@ input {
     width: 75%;
     margin: 0px auto;
     display: block;
-        min-height: 79.44vh;
+        /* min-height: 79.44vh; */
    
 }
 
@@ -1824,7 +1824,7 @@ transition:1s !important;
     width: 100%;
     margin: 0 auto;
     display: contents;
-    height: 77vh!important
+    /* height: 77vh!important */
 }
 .titact{
   text-align: center;
