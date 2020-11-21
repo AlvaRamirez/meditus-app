@@ -36,7 +36,7 @@ export default function Aprende() {
           </div>
         </div>
         {/* <Aporte /> */}
-            <div className="contir"> <a className="botonlisto" href="Experimenta">Experimenta -🢒</a></div>
+            <div className="contir"> <a className="botonlisto" href="Experimenta">ir a Experimenta🢒</a></div>
        
       </div>
       

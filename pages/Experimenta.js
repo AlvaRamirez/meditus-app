@@ -31,7 +31,7 @@ export default function Experimenta() {
           </div>
         </div>
         {/* <Aporte /> */}
-      <div className="contir"><a className="botonlisto" href="Aprende">Aprende -🢒</a></div>  
+      <div className="contir"><a className="botonlisto" href="Aprende">ir a Aprende</a></div>  
       </div>
      
        <Footer /> 

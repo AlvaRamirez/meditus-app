@@ -831,6 +831,7 @@ form {
 
 .texto {
     font-size: 22px;
+    color: white !important;
     margin-top: 0;
 }
 
@@ -2263,6 +2264,7 @@ opacity: 1;
 
   .texto {
     font-size: 15px;
+    color: white !important;
     margin-top: 0;
 }
 
@@ -2562,6 +2564,7 @@ opacity: 1;
 .texto {
     font-size: 20px;
     margin-top: 0;
+    color: white !important;
 }
 
 }
