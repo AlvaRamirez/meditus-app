@@ -425,7 +425,7 @@ transition: 1s all;
     width: 100px!important;
     opacity: 1!important;
     border: 0!important;
-    text-transform: capitalize!important;
+    text-transform: inherit !important;
     padding: 8px 20px 8px 20px !important;
     margin-top: 20px!important;
     color: #fff!important;
