@@ -1699,6 +1699,7 @@ input {
     width: 75%;
     margin: 0px auto;
     display: block;
+        min-height: 79.44vh;
    
 }
 
