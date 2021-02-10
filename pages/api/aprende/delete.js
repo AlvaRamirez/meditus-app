@@ -1,15 +1,14 @@
 import { db } from "lib/firebase";
-const createCardAprende= async (data) => {
+const deleteCardAprende= async (id) => {
 
    try { return await db
     .collection("aprende")
-    .doc()
-    .set(data)
+    .doc(id)
+    .delete()
        
    } catch (error) {
        console.log(error)
    }
 
   }
-  export default createCardAprende
-  
+  export default deleteCardAprende
