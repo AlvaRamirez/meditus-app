@@ -14,7 +14,7 @@ const Cards = ({ data, deleteCard }) => {
         <NextLink id={data.id} href={`/contenido/${data.type}/${data.id}`} data={data}>
           Leer
         </NextLink>
-        {/* <button onClick={()=>deleteCard(data.id)}>borrar</button> */}
+       
       </Card.Body>
     </Card>
   );

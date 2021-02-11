@@ -5,16 +5,11 @@ import Header2 from "../components/Header2";
 import Card from "../components/Card";
 import { default as NextLink } from "next/link";
 import {getCards} from "./api/aprende/get";
-import deleteCardAprende from "./api/aprende/delete"
+
 
 
 export default function Aprende() {
   const [cards, setCards] = useState([]);
-
-  const deleteCard= async (id) =>{ 
-      await deleteCardAprende(id)
-
-  }
 
   useEffect(() => {
     const fn = async () => {
@@ -38,7 +33,7 @@ export default function Aprende() {
           </div> */}
           <div className="cardcontent">
             {cards.map((card) => (
-              <Card data={card} id={card.id} deleteCard={deleteCard} />
+              <Card data={card} id={card.id} />
             ))}
           </div>
         </div>

@@ -2,9 +2,10 @@ import React, { useState } from 'react'
 import createCardAprende from '../api/aprende/create'
 import createCardExperimenta from '../api/cards/create'
 
-const CardForm = () => {
+const CardForm = ({card:id}) => {
 
     const [card, setCards] = useState({})
+    console.log(card);
 
     const onChange = (event) => {
         const { name, value } = event.target;
@@ -19,6 +20,16 @@ const CardForm = () => {
             await createCardExperimenta(card)
         }
     }
+
+    useEffect(() => {
+        const fn = async () => {
+          const data = await getCard(id);
+          setCard(data);
+          console.log(data);
+        };
+        fn();
+      },[]);
+
 
     return (
 
