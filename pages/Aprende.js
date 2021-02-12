@@ -4,9 +4,7 @@ import Footer from "../components/Footer";
 import Header2 from "../components/Header2";
 import Card from "../components/Card";
 import { default as NextLink } from "next/link";
-import {getCards} from "./api/aprende/get";
-
-
+import { getCards } from "./api/aprende/get";
 
 export default function Aprende() {
   const [cards, setCards] = useState([]);
@@ -25,24 +23,32 @@ export default function Aprende() {
       <div className="fondo">
         <Header2 />
         <div className="contacti">
-        <div className="conttotal"> 
-          <h1 className="titact">Aprende</h1>
+          <div className="conttotal">
+            <h1 className="titact">Aprende</h1>
           </div>
           {/* <div className="carga">
             <img class="imgcarga" src="assets/caga.gif"></img>
           </div> */}
           <div className="cardcontent">
-            {cards.map((card) => (
-              <Card data={card} id={card.id} />
+            {cards.map((card, inx) => (
+              <Card key={inx} data={card} id={card.id} />
             ))}
           </div>
         </div>
         {/* <Aporte /> */}
-            <div className="contir"> <a className="botonlisto" href="Experimenta">ir a Experimenta</a></div>
-            <div className="contir"><NextLink className="botonlisto" href="/CardForm">+</NextLink></div>  
+        <div className="contir">
+          <a className="botonlisto" href="Experimenta">
+            ir a Experimenta
+          </a>
+        </div>
+        <div className="contir">
+          <NextLink className="botonlisto" href="/CardForm">
+            Crear nueva Card
+          </NextLink>
+        </div>
       </div>
-      
-       <Footer /> 
+
+      <Footer />
     </div>
   );
-};
+}
