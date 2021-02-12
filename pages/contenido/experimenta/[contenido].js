@@ -48,7 +48,7 @@ export default function Contenido() {
           </div>
         </div>
         <Aporte />
-        {auth.user.email === "tuCorreo" && (
+        {auth.user.email === "alvaramire@gmail.com" && (
           <>
             <button onClick={deleteCard}>Borrar</button>
             <NextLink href={`/CardForm/${[card.type, id]}`}>Editar</NextLink>
