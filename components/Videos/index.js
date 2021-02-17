@@ -18,13 +18,13 @@ const Videos = () => {
         <div id="contvi">
      <Slider {...settings}>
           <div className="contSlider">
-          <iframe  src="https://www.youtube.com/embed/x1CrPwhmqX4"  default></iframe>
+          <iframe src="https://www.youtube.com/embed/tiBKh1DznXs" default></iframe>
           </div>
           <div  className="contSlider">
-          <iframe  src="https://www.youtube.com/embed/XoYDjtpTBbU"  default></iframe>
+          <iframe src="https://www.youtube.com/embed/wTjrFL4sNqc" default></iframe>
           </div>
           <div  className="contSlider">
-          <iframe  src="https://www.youtube.com/embed/go8ibd-hGiw" default></iframe>
+          <iframe src="https://www.youtube.com/embed/n5o9a8pK6bI" default></iframe>
           </div>
          {/* <div  className="contSlider">
           <iframe src="https://www.youtube.com/embed/Sdi60CAM8Ac"  default></iframe>

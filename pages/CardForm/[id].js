@@ -7,7 +7,8 @@ import { getCard as getExperimentaCard } from "../api/cards/get";
 const ModifyCard = () => {
   const props = useRouter();
   const [card, setCard] = useState({});
-  const [type, id] = props.query.id.split(",");
+  // const [type, id] = props.query.id.split(",");
+  const [type, id] = props?.query?.id?.split(",") || [];
 
   useEffect(() => {
     const fn = async () => {
