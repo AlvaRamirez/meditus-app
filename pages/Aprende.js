@@ -37,9 +37,9 @@ export default function Aprende() {
         </div>
         {/* <Aporte /> */}
         <div className="contir">
-          <a className="botonlisto" href="Experimenta">
+          <NextLink href="/Experimenta" className="botonlisto">
             ir a Experimenta
-          </a>
+          </NextLink>
         </div>
         <div className="contir">
           <NextLink className="botonlisto" href="/CardForm">

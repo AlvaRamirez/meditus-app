@@ -6,7 +6,7 @@ import { getCard } from "../../api/cards/get";
 import Aporte from "../../../components/Aporte";
 import deleteCardExperimenta from "../../api/cards/delete";
 import { default as NextLink } from "next/link";
-import { useUser } from "../../../lib/useUser";
+import { useUser } from "lib/useUser";
 
 export default function Contenido() {
   const props = useRouter();
@@ -36,9 +36,9 @@ export default function Contenido() {
         <Header2 />
 
         <div className="banner_img">
-          <a href="/Experimenta">
+          <NextLink href="/Experimenta">
             <img className="back" src="/assets/left-arrow.png"></img>
-          </a>
+          </NextLink>
           <h1 className="titcard">{card.titulo}</h1>
           <img className="img_b" src={card.img}></img>
         </div>
@@ -48,7 +48,7 @@ export default function Contenido() {
           </div>
         </div>
         <Aporte />
-        {auth.user.email === "alvaramire@gmail.com" && (
+        {auth.user.email === "alvaramire123@gmail.com" && (
           <>
             <button onClick={deleteCard}>Borrar</button>
             <NextLink href={`/CardForm/${[card.type, id]}`}>Editar</NextLink>
