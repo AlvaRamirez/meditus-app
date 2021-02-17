@@ -48,12 +48,14 @@ export default function Contenido() {
           </div>
         </div>
         <Aporte />
+        <div className="botonesamb">
         {auth?.user?.email === "alvaramire123@gmail.com" && (
           <>
-            <button onClick={deleteCard}>Borrar</button>
-            <NextLink href={`/CardForm/${[card.type, id]}`}>Editar</NextLink>
+            <button className="abm" onClick={deleteCard}>Borrar</button>
+            <NextLink className="abm" href={`/CardForm/${[card.type, id]}`}>Editar</NextLink>
           </>
         )}
+        </div>
       </div>
 
       <Footer />

@@ -43,7 +43,7 @@ const CardForm = ({ info, id }) => {
 
   return (
     <div>
-      <h1>Agrega una Card</h1>
+      <h1 className="newcard">Agrega una Card</h1>
 
       <form>
         <input
