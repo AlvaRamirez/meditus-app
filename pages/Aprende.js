@@ -5,6 +5,7 @@ import Header2 from "../components/Header2";
 import Card from "../components/Card";
 import { default as NextLink } from "next/link";
 import { getCards } from "./api/aprende/get";
+import Slider from "react-slick";
 
 export default function Aprende() {
   const [cards, setCards] = useState([]);
@@ -46,6 +47,44 @@ export default function Aprende() {
             Crear nueva Card
           </NextLink>
         </div>
+        <div>
+      <h1 className="rela">Videos relacionados</h1>
+      <Slider>
+     
+              <div>
+             <iframe src="https://www.youtube.com/embed/Sdi60CAM8Ac" default ></iframe>
+             </div>
+
+             <div>
+             <iframe src="https://www.youtube.com/embed/WzaL1STzQss" default ></iframe>
+             </div>
+
+             <div>
+             <iframe src="https://www.youtube.com/embed/GFbuap_SW-0" default ></iframe>
+             </div>
+
+             <div>
+             <iframe src="https://www.youtube.com/embed/3oFb0i3hIjM" default ></iframe>
+             </div>
+
+             <div>
+             <iframe src="https://www.youtube.com/embed/yT01CAWDtGM" default ></iframe>
+             </div>
+             
+             <div>
+             <iframe src="https://www.youtube.com/embed/ybkXLkEpq_s" default ></iframe>
+             </div>
+
+      </Slider>
+      </div>
+      <br></br>
+      <div></div>
+      <br></br>
+      <br></br>
+      <div></div>
+      <br></br>
+      
+      
       </div>
 
       <Footer />

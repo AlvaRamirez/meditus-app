@@ -29,7 +29,17 @@ const GlobalStyle = createGlobalStyle`
 }
 
 
-
+.rela{
+  padding-bottom: 2em;
+  width: 100%;
+  font-size: 1.55em;
+  font-family: 'Nunito Sans';
+  font-style: oblique;
+  font-weight: bolder;
+  color: #767676b3;
+  margin: 0;
+  text-align: center;
+  }
 
 #videos {
     width: 100%;
